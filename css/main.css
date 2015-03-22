@@ -146,18 +146,14 @@ a:hover {
 }
 
 .nav-link:hover {
-	text-decoration: underline;
+	background-color:white;
+	color:#005252;
 }
 
 .nav-link.active {
-	background-color:white;
-	color:#005252;
+	background-color: rgba(0, 82, 82, .2);
 }
 
-.nav-link.active:hover {
-	background-color:white;
-	color:#005252;
-}
 
 
 /* -----COLUMNS----- */
