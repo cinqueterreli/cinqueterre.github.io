@@ -1,0 +1,10 @@
+# Site settings
+title: Cinque Terre
+email: cterre@optonline.net
+description:
+url: http://cinqueterre.github.io
+github_username: cinqueterreli
+
+# Build settings
+markdown: kramdown
+permalink: pretty
