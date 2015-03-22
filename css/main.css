@@ -57,8 +57,15 @@ a:hover {
 .container {
 	max-width: 1000px; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
+}
+
+#wrap {
+	min-height:100%;
+}
+
+#main {
 	overflow:auto;
-	padding-bottom: 180;
+	padding bottom:180px;
 }
 
 @media (max-width:1050px){
@@ -176,7 +183,7 @@ a:hover {
 	text-align:center;
 }
 
-.site-footer {
+#site-footer {
 	position:relative;
 	margin-top:-180px;
 	height:180px;
