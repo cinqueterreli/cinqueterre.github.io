@@ -125,13 +125,12 @@ a:hover {
 }
 
 .nav-link:hover {
-	background-color:white;
-	color:#005252;
+	text-decoration: underline;
 }
 
 .nav-link.active {
-	background-color:tomato;
-	color:white;
+	background-color:white;
+	color:#005252;
 }
 
 .nav-link.active:hover {
