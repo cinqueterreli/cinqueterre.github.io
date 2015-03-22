@@ -60,7 +60,7 @@ a:hover {
 }
 
 .site-header {
-	padding:2em 0;
+	padding:1em 0;
 }
 
 .hero {
@@ -78,23 +78,11 @@ a:hover {
 	}
 }
 .site-title { 
-	font-family:'Creepster';
-	font-size:2em;
-	margin-left:.25em;
-	color:#005252;
-	text-decoration:none;
-	border-radius:.75em;
-	padding-left:.25em;
-	padding-right:.25em;
-	padding-top:.1em;
-	padding-bottom:.1em;
-	font-weight:normal;
+
 }
 
 .site-title:hover {
-	background-color:#005252;
-	color:white;
-	font-weight:normal;
+	text-decoration:underline;
 }
 
 /* Navigation */
