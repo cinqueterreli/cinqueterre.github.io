@@ -151,9 +151,13 @@ a:hover {
 }
 
 .nav-link.active {
-	background-color: rgba(0, 82, 82, .2);
+	background-color: rgba(0, 82, 82, .8);
 }
 
+.nav-link.active:hover {
+	background-color:white;
+	color:#005252;
+}
 
 
 /* -----COLUMNS----- */
