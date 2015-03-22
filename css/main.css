@@ -170,6 +170,7 @@ a:hover {
 .site-footer {
 	margin-top:3em;
 	background-color:#005252;
+	position:relative;
 	padding:2em 0;
 	color:white;
 }
