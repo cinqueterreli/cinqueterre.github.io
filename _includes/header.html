@@ -3,18 +3,11 @@
         <a class="site-title" href="{{site.url}}"><img class="site-logo" src="images/templogo.png" alt="Cinque Terre"></a>
         <nav class="navbar">
             <ul class="header-nav">
-<<<<<<< HEAD
-                <li><a class="nav-link" href="{{ site.url }}/index">Home</a></li>
-                <li><a class="nav-link" href="{{ site.url }}/menu">Menu</a></li>
-                <li><a class="nav-link" href="{{ site.url }}/about-us">About Us</a></li>
-                <li><a class="nav-link" href="{{ site.url }}/directions">Directions</a></li>
-=======
                 {% for nav in site.pages %}
                     {% if nav.title %}
                         <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a></li>
                     {% endif %}
                 {% endfor %}
->>>>>>> parent of bf4126a... navigation ordering problems fixed?
             </ul>
         </nav>
     </div> <!-- / container -->
