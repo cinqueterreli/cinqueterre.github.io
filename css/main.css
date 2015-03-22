@@ -81,6 +81,11 @@ a:hover {
 
 }
 
+.site-logo {
+	max-width:200;
+	max-height:80;
+}
+
 .site-title:hover {
 	text-decoration:underline;
 }
