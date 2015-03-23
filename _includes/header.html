@@ -3,10 +3,14 @@
         <a class="site-title" href="{{site.url}}"><img class="site-logo" src="images/templogo.png" alt="Cinque Terre"></a>
         <nav class="navbar">
             <ul class="header-nav">
-                {% for nav in site.pages %}
-                    {% if nav.title %}
-                        <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a></li>
-                    {% endif %}
+                {% for link in site.navigation %}
+                    {% assign current = nil %}
+                        {% if page.url == link.url or page.layout == link.layout %}
+                            {% assign current = 'current' %}
+                        {% endif %}
+                        <li class="{% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}">
+                        <a class="{{ current }}" href="{{ link.url }}">{{ link.text }}</a>
+                        </li>
                 {% endfor %}
             </ul>
         </nav>
