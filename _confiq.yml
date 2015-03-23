@@ -8,12 +8,3 @@ github_username: cinqueterreli
 # Build settings
 markdown: kramdown
 permalink: pretty
-
-navigation:
-- text: Menu
-url: http://cinqueterreli.github.io/menu
-- text: About Us
-url: http://cinqueterreli.github.io/about-us
-- text: Directions
-url: http://cinqueterreli.github.io/Directions
-layout: post
