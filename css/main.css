@@ -102,12 +102,13 @@ a:hover {
 	}
 }
 .site-title { 
-
+	text-align:center;
+	float:left;
 }
 
 .site-logo {
-	max-width:200px;
-	max-height:80px;
+	max-width:300px;
+	max-height:125px;
 }
 
 .site-title:hover {
@@ -140,7 +141,8 @@ a:hover {
 		display:inline-block;
 	}
 	.navbar {
-	float: right;
+	float:left;
+	clear:both;
 }
 	.site-title {
 		float:left;
