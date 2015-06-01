@@ -6,17 +6,17 @@
 
 @font-face {
 	font-family: scriptHead;
-	src: url(fonts/dancingscript.ttf);
+	src: url(/fonts/dancingscript.ttf);
 }
 
 @font-face {
 	font-family: bodyText;
-	src: url(fonts/champagne&limousines.ttf);
+	src: url(/fonts/champagne&limousines.ttf);
 }
 
 @font-face {
 	font-family: navText;
-	src: url(fonts/alpacascarlett.ttf);
+	src: url(/fonts/alpacascarlett.ttf);
 }
 
 html {
