@@ -4,13 +4,27 @@
 	padding:0;
 }
 
+@font-face {
+	font-family: scriptHead;
+	src: url(fonts/dancingscript.ttf);
+}
+
+@font-face {
+	font-family: bodyText;
+	src: url(fonts/champagne&limousines.ttf);
+}
+
+@font-face {
+	font-family: navText;
+	src: url(fonts/alpacascarlett.ttf);
+}
+
 html {
 	height:100%;
 } 
 
 body {
   font-family: 'Open Sans', serif;
-  background-image: url("/images/backgroundimage.JPG");
   margin:0 auto;
   font-weight: 400;
   line-height: 1.5;
