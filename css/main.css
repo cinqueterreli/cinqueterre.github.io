@@ -21,6 +21,7 @@
 
 html {
 	height:100%;
+	background-image: url(/images/homepageHeader2.jpg) no-repeat center center fixed;
 } 
 
 body {
@@ -95,11 +96,6 @@ a:hover {
 
 .site-header {
 	padding:1em 0;
-	background-image: url(/images/homepageHeader2.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
 	text-align:center;
 }
 
