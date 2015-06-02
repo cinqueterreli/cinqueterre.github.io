@@ -98,11 +98,6 @@ a:hover {
 	text-align:center;
 }
 
-#homeHeader {
-	background-image: url(images/homepageHeader2.jpg) no-repeat center center fixed;
-	max-height:600px;
-}
-
 @media (max-width:450px){
 	.hero-img{
 		display:none;
