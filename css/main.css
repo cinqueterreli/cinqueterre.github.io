@@ -110,7 +110,7 @@ a:hover {
 .site-logo {
 	max-width:200px;
 	max-height:80px;
-	float:middle;
+	float:left;
 }
 
 .site-title:hover {
@@ -119,7 +119,7 @@ a:hover {
 
 .header-image {
 	max-width:100%;
-	float:middle;
+	float:left;
 }
 
 
