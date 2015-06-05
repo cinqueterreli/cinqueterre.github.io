@@ -138,11 +138,6 @@ a:hover {
 	.header-nav li {
 		display:inline-block;
 	}
-	.navbar {
-	float:middle;
-	margin: 0 auto;
-	clear:both;
-}
 }
 
 .nav-link {
