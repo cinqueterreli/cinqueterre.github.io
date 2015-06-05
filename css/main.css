@@ -125,19 +125,13 @@ a:hover {
 /* -----NAVIGATION----- */
 
 .navbar {
-	margin-top:.5em;	
+  	clear: both;
+  	padding: .5em;
 }
-
 
 .header-nav li {
-	/*display: inline-block;*/
+	display: inline-block
 	margin-bottom:.5em;
-}
-
-@media (min-width:620px){
-	.header-nav li {
-		display:inline-block;
-	}
 }
 
 .nav-link {
