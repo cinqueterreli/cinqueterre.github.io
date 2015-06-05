@@ -109,7 +109,9 @@ a:hover {
 .site-logo {
 	max-width:200px;
 	max-height:80px;
-	margin:-20em auto 0 auto;
+	float:left;
+	clear:none;
+	margin: 0 auto;
 }
 
 .site-title:hover {
