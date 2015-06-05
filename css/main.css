@@ -104,14 +104,12 @@ a:hover {
 	}
 }
 .site-title { 
-	margin: 0 auto;
 }
 
 .site-logo {
 	max-width:200px;
 	max-height:80px;
-	margin: 0 auto;
-	float:left;
+	margin: -5 auto;
 }
 
 .site-title:hover {
