@@ -104,12 +104,12 @@ a:hover {
 	}
 }
 .site-title {
-	float:left;
 }
 
 .site-logo {
 	max-width:200px;
 	max-height:80px;
+	margin: 0 auto -3em auto;
 }
 
 .site-title:hover {
@@ -119,7 +119,6 @@ a:hover {
 .header-image {
 	max-width:100%;
 	margin: 0 auto;
-	float:left;
 }
 
 
