@@ -105,6 +105,7 @@ a:hover {
 }
 .site-title { 
 	margin: 0 auto;
+	float:middle;
 }
 
 .site-logo {
