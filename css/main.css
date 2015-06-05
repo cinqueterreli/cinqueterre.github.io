@@ -121,6 +121,7 @@ a:hover {
 .header-image {
 	max-width:100%;
 	margin: 0 auto;
+	float:left;
 }
 
 
