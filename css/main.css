@@ -105,12 +105,12 @@ a:hover {
 }
 .site-title { 
 	margin: 0 auto;
-	float:middle;
 }
 
 .site-logo {
 	max-width:200px;
 	max-height:80px;
+	float:middle;
 }
 
 .site-title:hover {
