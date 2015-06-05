@@ -75,6 +75,7 @@ a:hover {
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
 }
 
+
 #wrap {
 	min-height:100%;
 }
@@ -86,6 +87,7 @@ a:hover {
 
 @media (max-width:1050px){
 	.container {
+		max-width:100%;
 		padding-left:1em;
 		padding-right:1em;
 	}
