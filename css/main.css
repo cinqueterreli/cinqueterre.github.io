@@ -233,8 +233,8 @@ td  {
 	max-width: 350px;
 }
 
-.promo-image {
-	max-width:100%;
+.table-wrap {
+	display:block;
 }
 
 
