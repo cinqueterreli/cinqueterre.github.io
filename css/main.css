@@ -231,6 +231,7 @@ td  {
 
 .homepage-image {
 	max-width: 350px;
+	margin:0 auto;
 	display:block;
 }
 
