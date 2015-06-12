@@ -84,6 +84,13 @@ a.button-link {
   font-size: 1.5em;
 }
 
+.button-style {
+	text-align:right;
+	margin: 0 auto .7em auto;
+	max-width:75%;
+
+}
+
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
