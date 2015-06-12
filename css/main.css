@@ -1,3 +1,5 @@
+/* -----LAYOUT----- */
+
 * {
 	box-sizing: border-box; /* check prefixes, this will make the border be included in the width of an element */
 	margin:0;
@@ -42,6 +44,8 @@ h1, h2, h3, h4 {
   margin: 1.414em 0 0.5em;
   font-weight: inherit;
   line-height: 1.2;
+  text-align:center;
+  font-family: scriptHead;
 }
 
 h1 {
@@ -67,9 +71,6 @@ a:hover {
 
 }
 
-
-/* -----LAYOUT----- */
-
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
@@ -87,6 +88,7 @@ hr {
 	height:2px;
 	display:block;
 	border:1px solid black;
+	box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, .35);
 }
 
 
