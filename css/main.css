@@ -84,6 +84,7 @@ a:hover {
 hr {
 	color:black;
 	height:4px;
+	display:block;
 }
 
 
