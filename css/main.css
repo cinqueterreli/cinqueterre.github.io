@@ -98,6 +98,7 @@ hr {
 	overflow:auto;
 	padding bottom:180px;
 	background-color:#FAF1CD;
+	min-height:100%;
 }
 
 
