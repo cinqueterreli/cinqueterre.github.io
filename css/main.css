@@ -187,6 +187,8 @@ hr {
 	margin:1em auto 0 auto;
 }
 
+/* This media query is used for responsive table design */
+
 @media(max-width:900px) {
 
 	/* Force table to not be like tables anymore */
@@ -217,6 +219,7 @@ hr {
 td  {
 	padding:1em 0;
 	text-align:center;
+	max-width:50%;
 }
 
 .promo-blurb {
