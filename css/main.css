@@ -187,7 +187,7 @@ hr {
 	margin:1em auto 0 auto;
 }
 
-@media(max-width:1000px) {
+@media(max-width:900px) {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
