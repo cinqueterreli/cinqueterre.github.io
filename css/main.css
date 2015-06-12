@@ -157,6 +157,7 @@ hr {
 
 .nav-link {
 	font-family:navText;
+	font-size:.75em;
 	padding:.25em 1em;
 	color:black;
 	margin-right:.5em;
