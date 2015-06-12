@@ -193,6 +193,12 @@ td  {
 	text-align:center;
 }
 
+.promo-blurb {
+	text-align:left;
+	text-indent:.5em;
+	padding:0 1.5em;
+}
+
 
 /* -----COLUMNS----- */
 
