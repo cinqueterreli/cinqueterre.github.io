@@ -129,6 +129,13 @@ hr {
 	}
 }
 
+@media (max-width:600px){
+	.container {
+		transition: max-width .5s ease;
+		max-width:100%;
+	}
+}
+
 
 
 /*-------- HEADER ---------*/
