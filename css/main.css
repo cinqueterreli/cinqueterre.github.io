@@ -231,6 +231,7 @@ td  {
 
 .homepage-image {
 	max-width: 350px;
+	display:block;
 }
 
 .table-wrap {
