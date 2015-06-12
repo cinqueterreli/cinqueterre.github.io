@@ -191,6 +191,7 @@ hr:before {
 td  {
 	padding:1em 0;
 	text-align:center;
+	border:1px solid black;
 }
 
 .promo-blurb {
