@@ -191,6 +191,7 @@ hr {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
+		transition: display 1s ease;
 		display: block; 
 	}
 	
