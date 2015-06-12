@@ -182,7 +182,7 @@ hr {
 
 /* -----HOMEPAGE----- */
 .homepage-promos {
-	width:90%;
+	max-width:90%;
 	margin:1em auto 0 auto;
 }
 
