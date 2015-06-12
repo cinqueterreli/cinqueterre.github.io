@@ -189,6 +189,7 @@ hr {
 td  {
 	padding:1em 0;
 	text-align:center;
+	max-width:50%;
 }
 
 .promo-blurb {
