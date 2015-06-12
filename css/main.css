@@ -97,11 +97,9 @@ hr {
 #main {
 	overflow:auto;
 	padding bottom:180px;
-}
-
-.main-content {
 	background-color:#FAF1CD;
 }
+
 
 @media (max-width:1050px){
 	.container {
