@@ -157,12 +157,6 @@ hr {
 	margin: 0 auto -4em auto;
 }
 
-@media(max-width:600px){
-	.site-logo {
-		max-width:100px;
-	}
-}
-
 .site-title:hover {
 	text-decoration:underline;
 }
