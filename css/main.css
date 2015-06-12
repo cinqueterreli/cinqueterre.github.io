@@ -183,6 +183,13 @@ hr {
 }
 
 
+/* -----HOMEPAGE----- */
+.homepage-promos {
+	width:90%;
+	border:1px solid black;
+}
+
+
 /* -----COLUMNS----- */
 
 @media (min-width:620px){
