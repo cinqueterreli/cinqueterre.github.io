@@ -83,6 +83,7 @@ a:hover {
 
 hr {
 	color:black;
+	background-color:black;
 	height:4px;
 	display:block;
 	border:1px solid black;
