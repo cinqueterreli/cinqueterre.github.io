@@ -21,11 +21,11 @@
 
 html {
 	height:100%;
+	background-color:black;
 } 
 
 body {
   font-family: bodyText;
-  background-color:black;
   margin:0 auto;
   font-weight: 400;
   line-height: 1.5;
@@ -73,6 +73,7 @@ a:hover {
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
+	background-color:#FAF1CD;
 }
 
 .scriptHead {
@@ -134,6 +135,7 @@ a:hover {
 
 .navbar {
   	clear: both;
+  	background-color:#FAF1CD;
   	padding: .5em;
 }
 
