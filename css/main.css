@@ -81,6 +81,11 @@ a:hover {
 	text-align:center;
 }
 
+hr {
+	color:black;
+	height:4px;
+}
+
 
 #wrap {
 	min-height:100%;
