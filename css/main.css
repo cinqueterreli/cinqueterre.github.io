@@ -76,11 +76,6 @@ a:hover {
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
 }
 
-.scriptHead {
-	font-family:scriptHead;
-	font-size:1.5em;
-	text-align:center;
-}
 
 hr {
 	color:black;
