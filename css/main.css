@@ -79,7 +79,6 @@ a.button-link {
   text-align:center;
   border-radius:2px;
   padding:.4em;
-  margin-top:.5em;
 }
 
 .container {
@@ -236,7 +235,7 @@ td  {
 
 .promo-blurb {
 	text-align:left;
-	margin: 0 auto;
+	margin: 0 auto .7em auto;
 	text-indent:.5em;
 	max-width:75%;
 }
