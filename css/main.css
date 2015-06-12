@@ -187,6 +187,12 @@ hr {
 	margin:1em auto 0 auto;
 }
 
+@media(max-width:1000px) {
+	td {
+		display:inline-block;
+	}
+}
+
 td  {
 	padding:1em 0;
 	text-align:center;
