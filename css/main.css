@@ -183,14 +183,12 @@ hr {
 /* -----HOMEPAGE----- */
 .homepage-promos {
 	width:90%;
-	border:none;
 	margin:1em auto 0 auto;
 }
 
 td  {
 	padding:1em 0;
 	text-align:center;
-	border:1px solid black;
 }
 
 .promo-blurb {
