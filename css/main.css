@@ -102,7 +102,7 @@ hr {
 
 @media (max-width:1050px){
 	.container {
-		max-width:100%;
+		max-width:90%;
 		padding-left:1em;
 		padding-right:1em;
 	}
