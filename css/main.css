@@ -71,6 +71,16 @@ a:hover {
 
 }
 
+a.button-link {
+  background-color:gray;
+  color:black;
+  font-family:navText;
+  font-size:1.2em;
+  text-align:center;
+  border-radius:2px;
+  padding:.4em;
+}
+
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
@@ -157,7 +167,7 @@ hr {
 
 .nav-link {
 	font-family:navText;
-	font-size:.75em;
+	font-size:.8em;
 	padding:.25em 1em;
 	color:black;
 	margin-right:.5em;
