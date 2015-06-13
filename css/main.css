@@ -115,7 +115,7 @@ hr {
 #main {
 	overflow:auto;
 	padding bottom:180px;
-	background-color:#FFFEF2/*#FAF1CD;*/;
+	background-color:#FFFEF2;
 	min-height:800px;
 }
 
@@ -172,7 +172,7 @@ hr {
 
 .navbar {
   	clear: both;
-  	background-color:#FAF1CD;
+  	background-color:#FFFEF2;
   	padding: .5em;
 }
 
