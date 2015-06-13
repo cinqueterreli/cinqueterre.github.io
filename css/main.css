@@ -115,7 +115,7 @@ hr {
 #main {
 	overflow:auto;
 	padding bottom:180px;
-	background-color:#FAF1CD;
+	background-color:#FFFEF2/*#FAF1CD;*/;
 	min-height:800px;
 }
 
