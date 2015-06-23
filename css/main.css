@@ -134,6 +134,8 @@ hr {
 	.container {
 		transition: max-width .5s ease;
 		max-width:100%;
+		padding-left:0;
+		padding-right:0;
 	}
 }
 
