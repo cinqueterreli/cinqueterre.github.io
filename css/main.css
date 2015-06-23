@@ -123,11 +123,7 @@ hr {
 @media (max-width:1050px){
 	.container {
 		transition: max-width .5s ease;
-		transition: padding-right .5s ease;
-		transition: padding-left .5s ease;
 		max-width:90%;
-		padding-left: 2em;
-		padding-right: 2em;
 		margin:none;
 	}
 }
@@ -135,11 +131,7 @@ hr {
 @media (max-width:600px){
 	.container {
 		transition: max-width .5s ease;
-		transition: padding-left .5s ease;
-		transition: padding-right .5s ease;
 		max-width:100%;
-		padding-left:0;
-		padding-right:0;
 	}
 }
 
@@ -255,12 +247,6 @@ td  {
 	padding:1em 0;
 	text-align:center;
 	max-width:100%;
-}
-
-@media (max-width:1050 px) {
-	td {
-		padding: 0;
-	}
 }
 
 .promo-blurb {
