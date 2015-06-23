@@ -123,6 +123,8 @@ hr {
 @media (max-width:1050px){
 	.container {
 		transition: max-width .5s ease;
+		transition: padding-right .5s ease;
+		transition: padding-left .5s ease;
 		max-width:90%;
 		padding-left: 3em;
 		padding-right: 3em;
@@ -133,6 +135,8 @@ hr {
 @media (max-width:600px){
 	.container {
 		transition: max-width .5s ease;
+		transition: padding-left .5s ease;
+		transition: padding-right .5s ease;
 		max-width:100%;
 		padding-left:0;
 		padding-right:0;
