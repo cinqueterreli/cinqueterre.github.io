@@ -172,7 +172,7 @@ hr {
 
 .navbar {
   	clear: both;
-  	background-color:black;
+  	background-color:#FAF1CD;
   	padding: .5em;
 }
 
@@ -185,7 +185,7 @@ hr {
 	font-family:navText;
 	font-size:.8em;
 	padding:.25em 1em;
-	color:white;
+	color:black;
 	margin-right:.5em;
 	margin-left:.25em;
 	text-decoration:none;
