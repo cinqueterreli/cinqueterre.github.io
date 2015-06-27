@@ -4,14 +4,14 @@
     <div class="container">
         <nav class="navbar">
             <ul class="header-nav">
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/about.html">ABOUT</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/menu.html">MENUS</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/catering.html">CATERING</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/events.html">EVENTS</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/gallery.html">GALLERY</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/press.html">PRESS</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/find-us.html">FIND US</a></li>
-                <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}/contact.html">CONTACT</a></li>
+                <li><a class="nav-link{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/about">ABOUT</a></li>
+                <li><a class="nav-link{% if page.title == "Menus" %} active{% endif %}" href="{{site.url}}/menu">MENUS</a></li>
+                <li><a class="nav-link{% if page.title == "Catering" %} active{% endif %}" href="{{site.url}}/catering">CATERING</a></li>
+                <li><a class="nav-link{% if page.title == "Events" %} active{% endif %}" href="{{site.url}}/events">EVENTS</a></li>
+                <li><a class="nav-link{% if page.title == "Gallery" %} active{% endif %}" href="{{site.url}}/gallery">GALLERY</a></li>
+                <li><a class="nav-link{% if page.title == "Press" %} active{% endif %}" href="{{site.url}}/press">PRESS</a></li>
+                <li><a class="nav-link{% if page.title == "Find Us" %} active{% endif %}" href="{{site.url}}/find-us">FIND US</a></li>
+                <li><a class="nav-link{% if page.title == "Contact" %} active{% endif %}" href="{{site.url}}/contact">CONTACT</a></li>
             </ul>
             <hr>
         </nav>
