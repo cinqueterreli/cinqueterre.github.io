@@ -159,6 +159,7 @@ hr {
 	max-width:200px;
 	/*margin: 0 auto -5.1em auto;*/
 	margin-bottom:-5.1em;
+	position:;
 }
 
 .site-title:hover {
@@ -178,6 +179,7 @@ hr {
   	clear: both;
   	background-color:#FAF1CD;
   	padding: .5em;
+  	display:none;
 }
 
 .header-nav li {
