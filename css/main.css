@@ -161,6 +161,12 @@ hr {
 	position:;
 }
 
+.sub-logo {
+	max-width:200px;
+	float:left;
+	clear:both;
+}
+
 .site-title:hover {
 	text-decoration:underline;
 }
