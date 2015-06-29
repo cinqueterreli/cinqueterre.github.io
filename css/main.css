@@ -112,13 +112,13 @@ hr {
 
 #wrap {
 	min-height:100%;
+	margin-top:500px;
 	background-color:#FAF1CD;
 }
 
 #main {
 	overflow:auto;
 	padding bottom:180px;
-	margin-top:914px;
 	min-height:800px;
 }
 
@@ -162,7 +162,7 @@ hr {
 }
 
 .sub-logo {
-	max-width:200px;
+	max-width:100px;
 	float:left;
 	clear:both;
 }
@@ -184,6 +184,7 @@ hr {
   	clear: both;
   	background-color:black;
   	padding: .5em;
+  	height:100px;
 }
 
 .header-nav li {
