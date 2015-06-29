@@ -192,6 +192,7 @@ hr {
 
 .nav-link {
 	font-family:navText;
+	color:black;
 	font-size:.8em;
 	padding:.25em 1em;
 	margin-right:.5em;
