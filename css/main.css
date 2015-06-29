@@ -62,7 +62,6 @@ h4 {font-size: 1.2em;}
 small, .font_small {font-size: 0.833em;}
 
 a {
-	color:red;
 	text-decoration:none;
 }
 
@@ -179,7 +178,7 @@ hr {
 .navbar {
   	clear: both;
   	padding: .5em;
-  	height:100px;
+  	background-color:#FAF1CD;
 }
 
 .header-nav {
