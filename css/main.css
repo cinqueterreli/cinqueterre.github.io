@@ -29,7 +29,7 @@ html {
 body {
 	background-image:url("/images/homepageHeader2.jpg");
 	max-width:100%;
-	position:fixed;
+	background-position:fixed;
   	font-family: bodyText;
   	margin:0 auto;
   	font-weight: 400;
