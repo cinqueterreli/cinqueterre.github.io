@@ -187,6 +187,10 @@ hr {
   	height:100px;
 }
 
+.header-nav {
+	padding:.5em 0;
+}
+
 .header-nav li {
 	display: inline-block;
 	margin-bottom:.5em;
