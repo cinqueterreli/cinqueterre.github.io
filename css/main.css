@@ -109,7 +109,6 @@ hr {
 
 #wrap {
 	min-height:100%;
-	margin-top:600px;
 	background-color:#FAF1CD;
 }
 
@@ -179,7 +178,6 @@ hr {
 
 .navbar {
   	clear: both;
-  	background-color:black;
   	padding: .5em;
   	height:100px;
 }
@@ -197,7 +195,6 @@ hr {
 	font-family:navText;
 	font-size:.8em;
 	padding:.25em 1em;
-	color:white;
 	margin-right:.5em;
 	margin-left:.25em;
 	text-decoration:none;
