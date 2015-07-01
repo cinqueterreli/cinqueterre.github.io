@@ -150,7 +150,7 @@ hr {
 .site-logo {
 	max-width:200px;
 	margin-bottom:-5.1em;
-	margin-left:2em;
+	margin-left:3em;
 }
 
 .sub-logo {
@@ -217,7 +217,7 @@ hr {
 }
 
 
-/* -----HOMEPAGE----- */
+/* ----- HOMEPAGE ----- */
 .homepage-promos {
 	max-width:90%;
 	margin:1em auto 0 auto;
@@ -315,6 +315,8 @@ td  {
 	text-align:center;
 }
 
+/* ----- Footer ------ */
+
 #site-footer {
 	position:relative;
 	margin-top:0;
@@ -325,6 +327,8 @@ td  {
 	color:white;
 	clear:both;
 }
+
+
 
 /* -----UTILITIES----- */
 
