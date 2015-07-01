@@ -198,15 +198,15 @@ hr {
 	display:block;
 }
 
-.1:hover {
+.one:hover {
 	background-color:#F16F89;
 }
 
-.2:hover {
+.two:hover {
 	background-color:#07B5FF;
 }
 
-.3:hover {
+.three:hover {
 	background-color:#FAAA61;
 }
 
@@ -215,8 +215,6 @@ hr {
 }
 
 .nav-link.active:hover {
-	background-color:white;
-	color:#005252;
 }
 
 
