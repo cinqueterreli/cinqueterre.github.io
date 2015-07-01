@@ -198,8 +198,16 @@ hr {
 	display:block;
 }
 
-.nav-link:hover {
-	background-color:white;
+.1:hover {
+	background-color:#F16F89;
+}
+
+.2:hover {
+	background-color:#07B5FF;
+}
+
+.3:hover {
+	background-color:#FAAA61;
 }
 
 .nav-link.active {
