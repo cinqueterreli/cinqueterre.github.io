@@ -138,7 +138,6 @@ hr {
 /*-------- HEADER ---------*/
 
 .site-header {
-	text-align:center;
 }
 
 @media (max-width:450px){
@@ -151,9 +150,8 @@ hr {
 
 .site-logo {
 	max-width:200px;
-	/*margin: 0 auto -5.1em auto;*/
 	margin-bottom:-5.1em;
-	position:;
+	margin-left:2em;
 }
 
 .sub-logo {
@@ -178,7 +176,9 @@ hr {
 .navbar {
   	clear: both;
   	padding: .5em;
-  	background-color:#FAF1CD;
+  	margin-bottom:-5.1em;
+  	float:right;
+  	position:relative;
 }
 
 .header-nav {
