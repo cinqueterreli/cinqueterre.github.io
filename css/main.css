@@ -200,8 +200,6 @@ hr {
 
 .nav-link:hover {
 	background-color:white;
-	color:#005252;
-	transition: all 1s ease;
 }
 
 .nav-link.active {
