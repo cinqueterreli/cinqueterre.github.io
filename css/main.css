@@ -226,6 +226,10 @@ hr {
 	margin:1em auto 0 auto;
 }
 
+.homepage-image {
+	margin:auto;
+}
+
 /* This media query is used for responsive table design */
 
 @media(max-width:900px) {
