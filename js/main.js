@@ -41,9 +41,9 @@ $(document).ready(function(){
     },
     unmatch : function() {
       $('.hamburger').css('display', 'inline-block')
-    } */
+    } 
 
-  });
+  }); */
 
 
 
