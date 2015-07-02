@@ -175,7 +175,7 @@ hr {
 
 @media(max-width:750px){
 	.site-logo {
-		max-width:125px;
+		max-width:150px;
 		transition: max-width .5s ease;
 		-webkit-transition: max-width .5s ease;
     	-moz-transition: max-width .5s ease;
