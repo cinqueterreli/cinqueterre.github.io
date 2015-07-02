@@ -312,7 +312,7 @@ hr {
 	margin: .1em 0;
 	color:black;
 	text-decoration:none;
-	display:block;
+	display:none;
 }
 
 .mobile-nav-link:hover {
