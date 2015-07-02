@@ -33,7 +33,17 @@ $(document).ready(function(){
 
 // ------ Media Queries ------ //
 
+  enquire.register("screen and (min-width:1100px)",{
+    match : function() {
+      $('.mobile-nav').css('display', 'none')
+      $('.x').css('display','none')
+      $('.hamburger').css('display', 'none')
+    },
+    unmatch : function() {
+      $('.hamburger').css('display', 'inline-block')
+    }
 
+  });
 
 
 
