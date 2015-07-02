@@ -173,6 +173,17 @@ hr {
 	margin-left:3em;
 }
 
+@media(max-width:750px){
+	.site-logo {
+		max-width:125px;
+		transition: max-width .5s ease;
+		-webkit-transition: max-width .5s ease;
+    	-moz-transition: max-width .5s ease;
+    	-o-transition: max-width .5s ease;
+    	transition: max-width .5s ease;
+	}
+}
+
 .site-logo:hover {
 	background-color:rgba(255,255,255,.5);
 }
