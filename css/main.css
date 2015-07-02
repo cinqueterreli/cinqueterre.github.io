@@ -136,10 +136,6 @@ hr {
 
 /*-------- HEADER ---------*/
 
-.header-bar {
-	margin-bottom:-5.1em;
-}
-
 .site-header {
 }
 
@@ -153,6 +149,7 @@ hr {
 
 .site-logo {
 	max-width:200px;
+	margin-bottom:-5.1em;
 	margin-left:3em;
 }
 
@@ -180,6 +177,7 @@ hr {
   	padding: .5em;
   	float:right;
   	position:relative;
+  	margin:1em 2em -5.1em 0;
 }
 
 .header-nav {
