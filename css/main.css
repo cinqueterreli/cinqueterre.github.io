@@ -314,6 +314,7 @@ hr {
 	clear:both;
 	position:absolute;
 	margin-top:5em;
+	z-index:1000;
 }
 
 .mobile-nav-link {
