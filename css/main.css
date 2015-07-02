@@ -236,6 +236,40 @@ hr {
 	max-width:100%;
 }
 
+.promo-head {
+	text-align:left;
+	text-indent:1em;
+}
+
+.promo-blurb {
+	text-align:left;
+	margin: 0 auto .7em auto;
+	text-indent:.5em;
+	max-width:75%;
+}
+
+@media (max-width: 900px) {
+	.promo-blurb {
+		transition: padding 1s ease;
+		padding:0 2em;
+	}
+}
+
+@media (max-width:737px) {
+	.promo-blurb {
+		transition: max-width 1s ease;
+		transition: padding 1s ease;
+		max-width:90%;
+		padding:0;
+	}
+}
+
+.homepage-image {
+	max-width: 100%;
+	margin:0 auto;
+	display:block;
+}
+
 /* This media query is used for responsive table design */
 
 @media(max-width:900px) {
@@ -271,34 +305,7 @@ td  {
 	max-width:100%;
 }
 
-.promo-blurb {
-	text-align:left;
-	margin: 0 auto .7em auto;
-	text-indent:.5em;
-	max-width:75%;
-}
 
-@media (max-width: 900px) {
-	.promo-blurb {
-		transition: padding 1s ease;
-		padding:0 2em;
-	}
-}
-
-@media (max-width:737px) {
-	.promo-blurb {
-		transition: max-width 1s ease;
-		transition: padding 1s ease;
-		max-width:90%;
-		padding:0;
-	}
-}
-
-.homepage-image {
-	max-width: 100%;
-	margin:0 auto;
-	display:block;
-}
 
 .table-wrap {
 	display:block;
