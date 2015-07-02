@@ -158,6 +158,10 @@ hr {
 	margin-left:3em;
 }
 
+.site-logo:hover {
+	background-color:rgba(255,255,255,.5);
+}
+
 .sub-logo {
 	max-width:100px;
 	float:left;
