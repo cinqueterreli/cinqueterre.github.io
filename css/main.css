@@ -275,7 +275,7 @@ hr {
 	list-style:none;
 	right:0;
 	clear:both;
-	position:relative;
+	position:absolute;
 	margin-top:5em;
 }
 
