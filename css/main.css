@@ -229,6 +229,7 @@ hr {
 
 
 /* ----- HOMEPAGE ----- */
+
 .homepage-promos {
 	max-width:90%;
 	margin:1em auto 0 auto;
@@ -313,7 +314,7 @@ td  {
 
 /* -----COLUMNS----- */
 
-@media (min-width:620px){
+@media (min-width:700px){
 
 .col {
 	float: left;
