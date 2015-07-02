@@ -318,7 +318,7 @@ hr {
 	padding:2em 1em;
 	height:325px;
 	margin: auto 0;
-	position:relative;
+	position:absolute;
 }
 
 @media (max-width: 900px) {
