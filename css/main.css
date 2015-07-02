@@ -179,7 +179,7 @@ hr {
 	}
 }
 
-@media(max-width:600px){
+@media(max-width:500px){
 	.site-logo{
 		max-width:150px;
 		transition: max-width .5s ease;
