@@ -284,6 +284,7 @@ hr {
 	margin: .1em 0;
 	color:black;
 	text-decoration:none;
+	display:block;
 }
 
 .mobile-nav-link:hover {
