@@ -140,6 +140,8 @@ hr {
 	margin-bottom: -5.1em;
 	padding-top:.6em;
 	background-color:rgba(255 255 255 .5);
+	position:absolute;
+	width:100%;
 }
 
 .site-header {
@@ -151,6 +153,8 @@ hr {
 	}
 }
 .site-title {
+	float:left;
+	position:relative;
 }
 
 .site-logo {
