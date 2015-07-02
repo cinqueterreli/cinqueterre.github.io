@@ -331,6 +331,7 @@ hr {
 
 @media (max-width: 700px) {
 	.col-box {
+		height:250px;
 	}
 }
 
