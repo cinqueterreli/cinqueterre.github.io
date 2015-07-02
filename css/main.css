@@ -259,8 +259,12 @@ hr {
 	}
 }
 
-@media (max-width:737px) {
+@media (max-width:700px) {
 	.promo-blurb {
+		padding:0 2em;
+	}
+	.promo-head {
+		text-align:center;
 	}
 }
 
