@@ -290,11 +290,13 @@ hr {
 }
 
 .mobile-nav {
+	margin
 	display:none;
 	list-style:none;
 	right:0;
 	clear:both;
 	position:absolute;
+	margin-top:5em;
 }
 
 .mobile-nav li ul {
