@@ -316,6 +316,14 @@ hr {
 	margin: auto 0;
 }
 
+.box-content {
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+
+
 @media (max-width: 900px) {
 	.col-box {
 		padding:0
