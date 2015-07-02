@@ -248,7 +248,6 @@ hr {
 
 @media (max-width:750px){
 	.promo-head {
-		text-indent:0;
 	}
 }
 
@@ -265,6 +264,7 @@ hr {
 	}
 	.promo-head {
 		text-align:center;
+		text-indent:0;
 	}
 }
 
