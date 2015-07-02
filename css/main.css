@@ -233,6 +233,7 @@ hr {
 
 .homepage-image {
 	margin:auto;
+	max-width:100%;
 }
 
 /* This media query is used for responsive table design */
