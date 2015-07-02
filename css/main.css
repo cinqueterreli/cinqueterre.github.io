@@ -269,34 +269,6 @@ hr {
 	}
 }
 
-@media (min-width:1100px){
-	.hamburger {
-		display:none;
-	}
-	.x {
-		display:none;
-	}
-
-@media (max-width:420px){
-	.hamburger {
-		max-width:85px;
-		transition: max-width .5s ease;
-		-webkit-transition: max-width .5s ease;
-    	-moz-transition: max-width .5s ease;
-    	-o-transition: max-width .5s ease;
-    	transition: max-width .5s ease;
-	}
-	.x {
-		max-width:80px;
-		transition: max-width .5s ease;
-		-webkit-transition: max-width .5s ease;
-    	-moz-transition: max-width .5s ease;
-    	-o-transition: max-width .5s ease;
-    	transition: max-width .5s ease;
-	}
-
-}
-
 
 .mobile-nav {
 	display:none;
