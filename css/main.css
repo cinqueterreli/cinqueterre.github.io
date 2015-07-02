@@ -254,17 +254,12 @@ hr {
 
 @media (max-width: 900px) {
 	.promo-blurb {
-		transition: padding 1s ease;
-		padding:0 2em;
+		padding:0
 	}
 }
 
 @media (max-width:737px) {
 	.promo-blurb {
-		transition: max-width 1s ease;
-		transition: padding 1s ease;
-		max-width:90%;
-		padding:0;
 	}
 }
 
