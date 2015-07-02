@@ -278,10 +278,6 @@ hr {
 	max-width: 100%;
 	margin:0 auto;
 	display:block;
-	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%,-50%);
 }
 
 
@@ -313,13 +309,6 @@ hr {
 	padding:2em 1em;
 	height:325px;
 	margin: auto 0;
-	position:relative;
-}
-
-.box-content {
-	position: absolute;
-  	top: 50%;
-  	transform: translateY(-50%);
 }
 
 @media (max-width: 900px) {
