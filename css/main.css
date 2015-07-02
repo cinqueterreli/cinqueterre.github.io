@@ -125,7 +125,7 @@ hr {
 	}
 }
 
-@media (max-width:600px){
+@media (max-width:915px){
 	.container {
 		transition: max-width .5s ease;
 		max-width:100%;
