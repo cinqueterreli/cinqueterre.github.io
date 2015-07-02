@@ -241,7 +241,7 @@ hr {
 
 @media (max-width:915px){
 	.promo-head {
-		text-indent:none;
+		text-indent:0;
 	}
 }
 
