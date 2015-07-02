@@ -139,6 +139,7 @@ hr {
 .header-bar {
 	margin-bottom: -5.1em;
 	padding-top:.6em;
+	background-color:rgba(255 255 255 .5);
 }
 
 .site-header {
