@@ -17,6 +17,11 @@
 }
 
 @font-face {
+	font-family:bodyBold;
+	src: url(/fonts/champagne&limousinesbold.ttf);
+}
+
+@font-face {
 	font-family: navText;
 	src: url(/fonts/alpacascarlett.ttf);
 }
@@ -319,6 +324,7 @@ hr {
 }
 
 .mobile-nav-link {
+	font-family:bodyBold;
 	padding:.25em .5em;
 	margin: .1em 0;
 	color:black;
