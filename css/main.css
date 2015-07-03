@@ -240,9 +240,9 @@ hr {
 }
 
 .nav-link {
-	font-family:bodyBold;
+	font-family:navText;
 	color:black;
-	font-size: 1em;
+	font-size: .8em;
 	padding:1em 1.5em;
 	text-decoration:none;
 	display:block;
