@@ -357,6 +357,16 @@ hr {
 		text-align:center;
 		text-indent:0;
 	}
+
+	.homepage-image {
+		margin-top:-2em;
+	}
+
+	.button-style {
+		position:absolute;
+		right: 2em;
+		margin-top: 13em;
+	}
 }
 
 @media (max-width:500px) {
