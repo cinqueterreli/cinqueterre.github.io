@@ -359,7 +359,6 @@ hr {
 	}
 
 	.homepage-image {
-		margin:0;
 		margin-top:-2em;
 	}
 
@@ -378,7 +377,6 @@ hr {
 
 .homepage-image {
 	max-width: 95%;
-	margin:0 auto;
 	display:block;
 	position:absolute;
 	top:50%;
