@@ -208,6 +208,7 @@ hr {
 	max-width:100%;
 	margin: -1.5em auto 0 auto;
 	float: left;
+	border-bottom:2px solid black;
 }
 
 
