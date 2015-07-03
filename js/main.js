@@ -45,6 +45,19 @@ $(document).ready(function(){
 
   });
 
+  enquire.register("screen and (max-width:700px)",{
+    match : function() {
+      $('#2').insertBefore("#3");
+      $('#4').insertBefore("#3");
+      $('#6').insertBefore("#7");
+      $('#8').insertBefore("#7");
+    },
+    unmatch : function() {
+      
+    }
+
+  });
+
 
 
 });
