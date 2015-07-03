@@ -51,12 +51,13 @@ $(document).ready(function(){
       $('#4').insertBefore("#3");
       $('#6').insertBefore("#7");
       $('#8').insertBefore("#7");
-      $('#menubut').insertAfter("#menuimg");
-      $('#cateringbut').insertAfter("#cateringimg");
-      $('#eventsbut').insertAfter("#eventsimg");
-      $('#aboutbut').insertAfter("#aboutimg");
+      
     },
     unmatch : function() {
+      $('#menubut').insertAfter("#menupara");
+      $('#cateringbut').insertAfter("#cateringpara");
+      $('#eventsbut').insertAfter("#eventspara");
+      $('#aboutbut').insertAfter("#aboutpara");
       
     }
 
