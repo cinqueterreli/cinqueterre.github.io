@@ -62,6 +62,10 @@ $(document).ready(function(){
       $('#cateringbut').insertAfter("#cateringpara");
       $('#eventsbut').insertAfter("#eventspara");
       $('#aboutbut').insertAfter("#aboutpara");
+      $("#2").detach().appendTo('#col2');
+      $("#4").detach().appendTo('#col2');
+      $("#6").detach().appendTo('#col2');
+      $("#8").detach().appendTo('#col2');
     }
 
   });
