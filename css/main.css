@@ -359,7 +359,7 @@ hr {
 	}
 
 	.homepage-image {
-		margin-top:-2em;
+		margin:-2em auto 0 auto;
 	}
 
 	.button-style {
