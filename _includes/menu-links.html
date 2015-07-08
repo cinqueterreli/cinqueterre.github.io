@@ -1,6 +1,5 @@
-<div class="container">
-	<ul class="menu-links">
-	<li><a class="menu-link" href="{{site.url}}/menus/lunch">LUNCH</a></li>
-	<li><a class="menu-link" href="{{site.url}}/menus/dinner">DINNER</a></li>
-	<li><a class="menu-link" href="{{site.url}}/menus/bar">BAR</a></li>
-	</ul>
+<ul class="menu-links">
+	<li><a class="menu-link{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/menus/lunch">LUNCH</a></li>
+	<li><a class="menu-link{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/menus/dinner">DINNER</a></li>
+	<li><a class="menu-link{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/menus/bar">BAR</a></li>
+</ul>
