@@ -420,17 +420,17 @@ hr {
 
 .aside {
 	width:25%;
+	float:left;
 }
 
 .sidebar {
-	font-family:scriptHead;
 	position:fixed;
-	font-size:1.2em;
-	float:left;
 	max-width:inherit;
 }
 
 .sidebar-link {
+	font-family:scriptHead;
+	font-size:1.2em;
 	display:block;
 	padding:.5em;
 	text-decoration:none;
