@@ -413,6 +413,10 @@ hr {
 	display:block;
 }
 
+.menu-link:hover {
+	background-color:white!important;
+}
+
 .menu-content {
 	clear:both;
 	width:75%;
