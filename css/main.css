@@ -429,7 +429,6 @@ hr {
 }
 
 .sidebar {
-	position:fixed;
 	max-width:inherit;
 }
 
@@ -439,7 +438,10 @@ hr {
 	display:block;
 	padding:.5em;
 	text-decoration:none;
-	color:black;
+	color:white;
+	background-color:black;
+	border-radius:5px;
+	margin:.2em;
 }
 
 
