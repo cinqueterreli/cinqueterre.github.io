@@ -397,6 +397,7 @@ hr {
 	list-style:none;
 	font-size:1.5em;
 	text-align:center;
+	margin: .2em auto 2em auto;
 }
 
 .menu-links li {
@@ -407,7 +408,7 @@ hr {
 .menu-link {
 	color:black;
 	font-size: .8em;
-	padding:1em 1.5em;
+	padding:.5em 1.5em;
 	text-decoration:none;
 	display:block;
 }
