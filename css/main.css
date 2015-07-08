@@ -395,6 +395,8 @@ hr {
 .menu-links {
 	font-family:bodyBold;
 	list-style:none;
+	font-size:1em;
+	text-align:center;
 }
 
 .menu-links li {
