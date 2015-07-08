@@ -412,6 +412,17 @@ hr {
 	display:block;
 }
 
+.menu-content {
+	clear:both;
+	width:75%;
+	float:left;
+}
+
+.sidebar {
+	float:left;
+	width:25%;
+}
+
 
 /* -----COLUMNS----- */
 
