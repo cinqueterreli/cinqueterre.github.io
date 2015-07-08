@@ -418,11 +418,16 @@ hr {
 	float:left;
 }
 
+.aside {
+	width:25%;
+}
+
 .sidebar {
 	font-family:scriptHead;
+	position:fixed;
 	font-size:1.2em;
 	float:left;
-	width:25%;
+	max-width:inherit;
 }
 
 .sidebar-link {
