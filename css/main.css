@@ -393,7 +393,7 @@ hr {
 
 /*------ Menus ------- */
 .menu-links {
-	font-family:navText;
+	font-family:bodyBold;
 	list-style:none;
 }
 
@@ -403,7 +403,11 @@ hr {
 }
 
 .menu-link {
-
+	color:black;
+	font-size: .8em;
+	padding:1em 1.5em;
+	text-decoration:none;
+	display:block;
 }
 
 
