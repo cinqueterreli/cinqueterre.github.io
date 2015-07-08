@@ -391,6 +391,20 @@ hr {
 	transform:translate(-50%,-50%);
 }
 
+/*------ Menus ------- */
+.menu-links {
+	font-family:navText;
+	list-style:none;
+}
+
+.menu-links li {
+	display:inline-block;
+
+}
+
+.menu-link {
+
+}
 
 
 /* -----COLUMNS----- */
