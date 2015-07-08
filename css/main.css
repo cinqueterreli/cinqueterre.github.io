@@ -419,13 +419,18 @@ hr {
 }
 
 .sidebar {
+	font-family:scriptHead;
+	font-size:;
 	float:left;
+	position:fixed;
 	width:25%;
 }
 
 .sidebar-link {
 	display:block;
 	padding:.5em;
+	text-decoration:none;
+	color:black;
 }
 
 
