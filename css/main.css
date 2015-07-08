@@ -435,6 +435,7 @@ hr {
 .sidebar-link {
 	font-family:scriptHead;
 	font-size:1.2em;
+	text-align:center;
 	display:block;
 	padding:.5em;
 	text-decoration:none;
