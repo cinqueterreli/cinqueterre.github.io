@@ -420,9 +420,8 @@ hr {
 
 .sidebar {
 	font-family:scriptHead;
-	font-size:;
+	font-size:1.2em;
 	float:left;
-	position:fixed;
 	width:25%;
 }
 
