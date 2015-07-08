@@ -423,6 +423,11 @@ hr {
 	width:25%;
 }
 
+.sidebar-link {
+	display:block;
+	padding:.5em;
+}
+
 
 /* -----COLUMNS----- */
 
