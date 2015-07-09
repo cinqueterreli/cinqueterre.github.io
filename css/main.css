@@ -114,6 +114,10 @@ a.button-link {
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
 }
 
+.margin1 {
+	margin:0 1em;
+}
+
 
 hr {
 	color:black;
