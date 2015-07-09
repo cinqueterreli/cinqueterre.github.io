@@ -428,8 +428,12 @@ hr {
 }
 
 .menu-container{
-	max-width:600px;
+	max-width:500px;
 	margin: 1em auto;
+}
+
+.hotcold {
+	text-align:left;
 }
 
 .menu-item {
