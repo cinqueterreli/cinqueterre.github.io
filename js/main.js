@@ -10,9 +10,9 @@ $(function() {
         var scrollTop = $(window).scrollTop();  
 
         if (scrollTop > navTop) {   
-            $('.sidebar').css('position', 'fixed');  
+            $('.sidebar').addClass('sticky');  
         } else {  
-            $('.sidebar').css('position', 'relative');   
+            $('.sidebar').removeClass('sticky');   
         }  
     };  
 

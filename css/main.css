@@ -426,11 +426,14 @@ hr {
 .aside {
 	width:20%;
 	float:left;
-	position:relative;
 }
 
 .sidebar {
   	margin-top: -650px;
+}
+
+.sticky {
+	position:fixed;
 }
 
 .sidebar-link {
