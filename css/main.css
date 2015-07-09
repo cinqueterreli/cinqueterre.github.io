@@ -426,6 +426,7 @@ hr {
 .aside {
 	width:20%;
 	float:left;
+	position:relative;
 }
 
 .sidebar {
