@@ -9,7 +9,7 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 200) {   
+        if (scrollTop > navTop + 350) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
