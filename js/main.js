@@ -4,7 +4,7 @@ $(document).ready(function(){
 /*--- Fixed position changer shit ---*/
 
 $(function() {  
-    var navTop = $('.sidebar').offset().top;  
+    var navTop = $('.menu-links').offset().top;  
 
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
