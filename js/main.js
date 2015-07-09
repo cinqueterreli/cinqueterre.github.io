@@ -2,7 +2,7 @@ $('html').addClass('js');
 
 $(document).ready(function(){
 
-
+$('#flash').hide();
 /*--- Fixed position changer shit ---*/
 
 $(function() {  
