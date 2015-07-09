@@ -35,6 +35,11 @@ $('.sidebar-link').click(function(){
 /*--- Dropdown Menu Functionality ---*/
 
 
+/*--- Event Page slide toggle ----*/
+
+  $(".event-category").click(function(){
+      $('.event-content').slideToggle(200);
+  }
 
 /* ----- Box Shadow Changes on click ------- */
 
