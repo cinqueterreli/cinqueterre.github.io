@@ -421,6 +421,10 @@ hr {
 	background-color:white!important;
 }
 
+.menu-link.active {
+	text-decoration:underline;
+}
+
 .menu-content {
 	clear:both;
 	width:80%;
