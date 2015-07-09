@@ -42,6 +42,7 @@ body {
 
 p {
 	margin-bottom: 1.3em;
+	text-indent:1em;
 }
 
 h1, h2, h3, h4 {
@@ -568,7 +569,6 @@ hr {
 }
 
 .col {
-	text-indent:1em;
 	min-height:100px;
 }
 
