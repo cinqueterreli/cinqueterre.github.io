@@ -427,6 +427,22 @@ hr {
 	float:left;
 }
 
+.menu-container{
+	max-width:400px;
+}
+
+.menu-item {
+
+}
+
+.price {
+
+}
+
+.item-des {
+
+}
+
 .aside {
 	width:20%;
 	float:left;
