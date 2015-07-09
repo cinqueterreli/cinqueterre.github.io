@@ -1,7 +1,7 @@
+$('html').addClass('js');
+
 $(document).ready(function(){
 
-
-$('html').addClass('js');
 
 /*--- Fixed position changer shit ---*/
 
