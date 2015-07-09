@@ -12,7 +12,7 @@ $(function() {
         if (scrollTop > navTop) {   
             $('.sidebar').css('position', 'fixed');  
         } else {  
-            $('.sidebar').css('position', 'relative');   
+            $('.sidebar').css('position', 'inherit');   
         }  
     };  
 
