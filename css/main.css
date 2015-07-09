@@ -553,6 +553,10 @@ hr {
 	margin-bottom:.2em;
 }
 
+.event-content {
+	padding:0 1.5em;
+}
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
