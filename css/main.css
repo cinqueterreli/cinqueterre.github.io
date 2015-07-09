@@ -462,12 +462,12 @@ hr {
 
 .price {
 	float:right;
+	text-indent:0;
 	margin-bottom:0;
 }
 
 .item-des {
 	clear:both;
-	text-indent: 5px;
   	margin-bottom: 1em;
 }
 
