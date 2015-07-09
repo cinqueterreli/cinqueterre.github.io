@@ -435,6 +435,7 @@ hr {
 .hotcold {
 	text-align:left;
 	text-decoration:underline;
+	margin-bottom:.5em;
 }
 
 .menu-item {
