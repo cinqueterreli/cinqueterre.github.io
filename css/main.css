@@ -422,8 +422,8 @@ hr {
 	color:black;
 }
 
-.menu-link.blue.active {
-	border:2px solid black;
+.menu-link.active {
+	border:4px solid black;
 }
 
 .menu-content {
