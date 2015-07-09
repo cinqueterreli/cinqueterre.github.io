@@ -516,6 +516,23 @@ hr {
 	text-indent:.5em;
 }
 
+
+/* ----- Events ----- */
+
+.event-category {
+  cursor:pointer;
+  padding:.5em 1em;
+  border-radius:5px;
+  border:1px solid black;
+  display:block;
+  margin:.5em 2em;
+}
+
+.event-content {
+  display:none;
+}
+
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
