@@ -434,7 +434,7 @@ hr {
 
 .sidebar-link {
 	font-family:scriptHead;
-	font-size:1.2em;
+	font-size:1.4em;
 	text-align:center;
 	display:block;
 	padding:.5em;
@@ -443,6 +443,12 @@ hr {
 	background-color:black;
 	border-radius:5px;
 	margin:.2em;
+}
+
+.sidebar-link:hover{
+	color:black;
+	background-color:white;
+	border:1px solid black;
 }
 
 
