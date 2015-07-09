@@ -429,6 +429,7 @@ hr {
 }
 
 .sidebar {
+	position:absolute;
 }
 
 .sticky {
