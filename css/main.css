@@ -506,6 +506,12 @@ hr {
 	font-size:1.2em;
 }
 
+@media(max-width:1000px){
+	.about-container {
+		width:90%;
+	}
+}
+
 .indent {
 	text-indent:.5em;
 }
