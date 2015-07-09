@@ -419,6 +419,7 @@ hr {
 
 .menu-link:hover {
 	background-color:white!important;
+	color:black;
 }
 
 .menu-link.blue.active {
