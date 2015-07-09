@@ -62,7 +62,7 @@ h2 {
 	font-family: scriptHead;
 }
 
-h3 {font-size: 1.44em;
+h3 {font-size: 1.35em;
 	font-family: bodyBold;}
 
 h4 {font-size: 1.2em;
@@ -434,6 +434,7 @@ hr {
 
 .hotcold {
 	text-align:left;
+	text-decoration:underline;
 }
 
 .menu-item {
