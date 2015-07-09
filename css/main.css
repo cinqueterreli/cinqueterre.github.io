@@ -26,10 +26,6 @@
 	src: url(/fonts/alpacascarlett.ttf);
 }
 
-.js #flash {
-	display:none;
-}
-
 html {
 	height:100%;
 } 

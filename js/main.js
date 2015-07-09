@@ -1,8 +1,6 @@
-$('html').addClass('js');
 
 $(document).ready(function(){
 
-$('#flash').hide();
 /*--- Fixed position changer shit ---*/
 
 $(function() {  
@@ -11,7 +9,7 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 450) {   
+        if (scrollTop > navTop + 500) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
