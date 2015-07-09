@@ -501,8 +501,9 @@ hr {
 /* ------ About ------ */
 
 .about-container {
-	width:75%;
+	width:60%;
 	margin: 1em auto;
+	font-size:1.2em;
 }
 
 .indent {
