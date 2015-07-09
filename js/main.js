@@ -9,7 +9,7 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 500) {   
+        if (scrollTop > navTop + 450) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
@@ -26,7 +26,7 @@ $(function() {
 $('.sidebar-link').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
-    }, 500);
+    }, 750);
     return false;
 });
 
