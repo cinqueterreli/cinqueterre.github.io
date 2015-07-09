@@ -3,28 +3,25 @@ $(document).ready(function(){
 
 /*--- Fixed position changer shit ---*/
 
-var windw = this;
+$(function() {  
+    var navTop = $('.sidebar').offset().top;  
 
-$.fn.followTo = function ( pos ) {
-    var $this = this,
-        $window = $(windw);
-    
-    $window.scroll(function(e){
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'relative',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
-        }
-    });
-};
+    var stickyNav = function(){  
+        var scrollTop = $(window).scrollTop();  
 
-$('.sidebar').followTo(500);
+        if (scrollTop > navTop) {   
+            $('.sidebar').css('position', 'fixed');  
+        } else {  
+            $('#navBar').css('position', 'relative');   
+        }  
+    };  
+
+    stickyNav();  
+
+    $(window).scroll(function() {  
+        stickyNav();  
+    });  
+}); 
 
 
 /*--- Dropdown Menu Functionality ---*/
