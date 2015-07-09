@@ -10,7 +10,7 @@ $.fn.followTo = function ( pos ) {
         $window = $(windw);
     
     $window.scroll(function(e){
-        if ($window.scrollBottom() > pos) {
+        if ($window.scrollTop() < pos) {
             $this.css({
                 position: 'absolute',
                 top: pos
