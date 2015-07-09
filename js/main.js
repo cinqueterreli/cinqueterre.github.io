@@ -38,11 +38,11 @@ $('.sidebar-link').click(function(){
 /*--- Event Page slide toggle ----*/
 
   $("#weekly-events").click(function(){
-      $('#weekly-content').slideToggle(200);
+      $('#weekly-content').slideToggle(400);
   });
 
   $("#upcoming-events").click(function(){
-      $('#upcoming-content').slideToggle(200);
+      $('#upcoming-content').slideToggle(400);
   });
 
 /* ----- Box Shadow Changes on click ------- */
