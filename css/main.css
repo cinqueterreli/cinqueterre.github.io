@@ -429,7 +429,8 @@ hr {
 }
 
 .sidebar {
-	max-width:inherit;
+	position: fixed;
+  	margin-top: -650px;
 }
 
 .sidebar-link {
