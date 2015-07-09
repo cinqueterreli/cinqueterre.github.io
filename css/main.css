@@ -498,6 +498,16 @@ hr {
 }
 
 
+/* ------ About ------ */
+
+.about-container {
+	width:75%;
+}
+
+.indent {
+	text-indent:.5em;
+}
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
