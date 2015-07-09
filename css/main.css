@@ -423,8 +423,7 @@ hr {
 }
 
 .menu-link.blue.active {
-	background-color:black;
-	color:#07B5FF;
+	border:2px solid black;
 }
 
 .menu-content {
