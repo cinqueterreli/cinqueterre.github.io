@@ -39,7 +39,7 @@ $('.sidebar-link').click(function(){
 
   $(".event-category").click(function(){
       $('.event-content').slideToggle(200);
-  }
+  });
 
 /* ----- Box Shadow Changes on click ------- */
 
