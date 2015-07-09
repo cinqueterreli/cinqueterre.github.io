@@ -4,7 +4,7 @@
         <nav class="navbar">
             <ul class="header-nav">
                 <li><a class="nav-link one{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/about">ABOUT</a></li>
-                <li><a class="nav-link two{% if page.title == "Menus" %} active{% endif %}" href="{{site.url}}/dinner-menu">MENUS</a></li>
+                <li><a class="nav-link two{% if page.title == "Dinner Menu" or "Lunch Menu" or "Bar Menu" %} active{% endif %}" href="{{site.url}}/dinner-menu">MENUS</a></li>
                 <li><a class="nav-link three{% if page.title == "Catering" %} active{% endif %}" href="{{site.url}}/catering">CATERING</a></li>
                 <li><a class="nav-link one{% if page.title == "Events" %} active{% endif %}" href="{{site.url}}/events">EVENTS</a></li>
                 <li><a class="nav-link two{% if page.title == "Gallery" %} active{% endif %}" href="{{site.url}}/gallery">GALLERY</a></li>
