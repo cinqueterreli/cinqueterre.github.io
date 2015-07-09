@@ -438,10 +438,13 @@ hr {
 
 .price {
 	float:right;
+	margin-bottom:0;
 }
 
 .item-des {
 	clear:both;
+	text-indent: 5px;
+  	margin-bottom: 1em;
 }
 
 .aside {
