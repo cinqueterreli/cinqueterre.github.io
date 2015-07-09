@@ -429,11 +429,11 @@ hr {
 }
 
 .sidebar {
-  	margin-top: -650px;
 }
 
 .sticky {
 	position:fixed;
+	margin-top:-650px;
 }
 
 .sidebar-link {
