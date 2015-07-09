@@ -37,8 +37,12 @@ $('.sidebar-link').click(function(){
 
 /*--- Event Page slide toggle ----*/
 
-  $(".event-category").click(function(){
-      $('.event-content').slideToggle(200);
+  $("#weekly-events").click(function(){
+      $('#weekly-content').slideToggle(200);
+  });
+
+  $("#upcoming-events").click(function(){
+      $('#upcoming-content').slideToggle(200);
   });
 
 /* ----- Box Shadow Changes on click ------- */
