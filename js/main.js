@@ -10,9 +10,9 @@ $.fn.followTo = function ( pos ) {
         $window = $(windw);
     
     $window.scroll(function(e){
-        if ($window.scrollTop() < pos) {
+        if ($window.scrollTop() > pos) {
             $this.css({
-                position: 'absolute',
+                position: 'relative',
                 top: pos
             });
         } else {
@@ -24,7 +24,7 @@ $.fn.followTo = function ( pos ) {
     });
 };
 
-$('.sidebar').followTo(250);
+$('.sidebar').followTo(500);
 
 
 /*--- Dropdown Menu Functionality ---*/
