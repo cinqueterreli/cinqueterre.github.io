@@ -536,6 +536,18 @@ hr {
   display:none;
 }
 
+.event-name {
+	text-align:left;
+}
+
+.event-date {
+	text-align:left;
+	text-indent:50px;
+}
+
+.smallmargin {
+	margin-bottom:.2em;
+}
 
 /* -----COLUMNS----- */
 
