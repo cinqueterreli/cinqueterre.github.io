@@ -552,11 +552,13 @@ hr {
 
 .event-left {
 	max-width:50%;
+	margin:0 auto;
 }
 
 .event-right {
 	float:right;
 	max-width:50%;
+	margin: 0 auto;
 }
 
 .smallmargin {
