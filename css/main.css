@@ -547,6 +547,7 @@ hr {
 }
 
 .event-img {
+	float:right;
 }
 
 .event-left {
