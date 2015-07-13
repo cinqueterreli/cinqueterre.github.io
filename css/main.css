@@ -532,8 +532,15 @@ hr {
 	height:300px;
 }
 
-.event-left {
+.event-name {
 	float:left;
+}
+
+.promo-img {
+	float:left;
+}
+
+.event-left {
 	max-width:50%;
 }
 
