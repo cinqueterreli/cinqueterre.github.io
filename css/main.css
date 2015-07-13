@@ -564,6 +564,17 @@ hr {
 	margin-bottom:.2em;
 }
 
+@media(max-width:840px){
+	.event-left {
+		float:none;
+	}
+	.event-right {
+		float:none;
+	}
+	.event-img {
+		float:none;
+	}
+}
 
 
 /* -----COLUMNS----- */
