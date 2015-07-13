@@ -577,6 +577,10 @@ hr {
 		float:none;
 		margin: 0 auto;
 	}
+
+	.event-holder {
+		text-align:center;
+	}
 }
 
 
