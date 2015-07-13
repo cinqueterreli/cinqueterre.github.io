@@ -167,7 +167,7 @@ hr {
 	text-decoration:none;
 	color:black;
 	font-family:bodyBold;
-	border-bottom:2px solid black;
+	border-bottom:1px solid black;
 	position:absolute;
 	margin-top:-2.6em;
 }
