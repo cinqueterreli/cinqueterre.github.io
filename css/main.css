@@ -254,6 +254,12 @@ hr {
 	float: left;
 }
 
+.overlay-head {
+	margin-top:-4em;
+	position:relative;
+	z-index:1000;
+}
+
 
 /* -----NAVIGATION----- */
 
