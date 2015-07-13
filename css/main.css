@@ -537,7 +537,6 @@ hr {
 }
 
 .event-name {
-	float:left;
 	font-size:2em;
 }
 
@@ -552,6 +551,7 @@ hr {
 
 .event-left {
 	max-width:50%;
+	float:left;
 }
 
 .event-right {
