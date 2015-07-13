@@ -532,6 +532,10 @@ hr {
 	height:300px;
 }
 
+.color {
+	background-color:#FFFFE5;
+}
+
 .event-name {
 	float:left;
 	font-size:2em;
