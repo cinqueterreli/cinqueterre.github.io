@@ -160,7 +160,25 @@ hr {
 	}
 }
 
+.tab {
+	background-color:#f4f4f4;
+	padding:.5em 1em;
+	border-bottom:2px solid black;
+}
 
+.tab-left {
+	float:left;
+	clear:both;
+}
+
+.tab-right {
+	float:right;
+	clear:both;
+}
+
+.tab.active {
+	border-bottom:none;
+}
 
 /*-------- HEADER ---------*/
 
