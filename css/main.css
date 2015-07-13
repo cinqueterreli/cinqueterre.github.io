@@ -527,32 +527,24 @@ hr {
 
 /* ----- Events ----- */
 
-.event-category {
-  cursor:pointer;
-  padding:.5em 1em;
-  border-radius:5px;
-  border:1px solid black;
-  display:block;
-  margin:.5em 2em;
+.event-holder {
+	width:100%;
+	height:300px;
 }
 
-
-.event-name {
-	text-align:left;
+.event-left {
+	float:left;
 }
 
-.event-date {
-	text-align:left;
-	text-indent:1.5em;
+.event-right {
+	float:right;
 }
 
 .smallmargin {
 	margin-bottom:.2em;
 }
 
-.event-content {
-	padding:0 1.5em;
-}
+
 
 /* -----COLUMNS----- */
 
