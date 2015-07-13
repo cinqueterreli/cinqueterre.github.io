@@ -537,8 +537,13 @@ hr {
 	font-size:2em;
 }
 
+.event-des {
+	font-size:1.25em;
+}
+
 .promo-img {
 	float:left;
+	margin-left:1.5em;
 }
 
 .event-left {
