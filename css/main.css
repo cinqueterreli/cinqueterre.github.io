@@ -643,3 +643,7 @@ hr {
 .cf {
     *zoom: 1;
 }
+
+.clear-left {
+	clear:left;
+}
