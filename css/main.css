@@ -534,10 +534,12 @@ hr {
 
 .event-left {
 	float:left;
+	max-width:50%;
 }
 
 .event-right {
 	float:right;
+	max-width:50%;
 }
 
 .smallmargin {
