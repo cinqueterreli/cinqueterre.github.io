@@ -544,7 +544,6 @@ hr {
 
 .event-des {
 	font-size:1.5em;
-	max-width:350px;
 }
 
 .promo-img {
@@ -552,13 +551,13 @@ hr {
 }
 
 .event-left {
-	max-width:50%;
+	max-width:250px;
 	float:left;
 }
 
 .event-right {
 	float:right;
-	max-width:50%;
+	max-width:350px;
 }
 
 .smallmargin {
