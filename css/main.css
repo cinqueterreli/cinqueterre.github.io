@@ -645,5 +645,6 @@ hr {
 }
 
 .clear-left {
+	float:left;
 	clear:left;
 }
