@@ -169,7 +169,7 @@ hr {
 	font-family:bodyBold;
 	border-bottom:2px solid black;
 	position:absolute;
-	margin-top:-2.5em;
+	margin-top:-2.6em;
 }
 
 .tab-left {
@@ -186,6 +186,7 @@ hr {
 .tab.active {
 	border-bottom:none;
 	background-color:#f4f4f4;
+	margin-top:-2.5em;
 }
 
 /*-------- HEADER ---------*/
