@@ -567,12 +567,15 @@ hr {
 @media(max-width:840px){
 	.event-left {
 		float:none;
+		margin: 0 auto;
 	}
 	.event-right {
 		float:none;
+		margin: 0 auto;
 	}
 	.event-img {
 		float:none;
+		margin: 0 auto;
 	}
 }
 
