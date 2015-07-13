@@ -167,16 +167,19 @@ hr {
 	color:black;
 	font-family:bodyBold;
 	border-bottom:2px solid black;
+	position:absolute;
+	margin-top:-2.6em;
 }
 
 .tab-left {
 	float:left;
-	clear:both;
+	clear:left;
 }
 
 .tab-right {
 	float:right;
-	clear:both;
+	clear:right;
+	right:0;
 }
 
 .tab.active {
@@ -551,6 +554,7 @@ hr {
 	width:100%;
 	min-height:225px;
 	padding:.5em 1em;
+	clear:both;
 }
 
 .color {
