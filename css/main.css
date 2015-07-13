@@ -530,7 +530,7 @@ hr {
 .event-holder {
 	width:100%;
 	min-height:200px;
-	padding:0 1em;
+	padding:.5em 1em;
 }
 
 .color {
@@ -553,7 +553,7 @@ hr {
 .event-left {
 	max-width:250px;
 	float:left;
-	padding:1.5em 0;
+	padding:1em 0;
 }
 
 .event-right {
