@@ -510,7 +510,9 @@ hr {
 
 .sidebar {
 	position:absolute;
+	top:36em;
 }
+
 
 .sticky {
 	position:fixed;
