@@ -484,6 +484,8 @@ hr {
 
 	.out {
 		display:inline-block;
+		position:absolute;
+		top:36em;
 	}
 }
 
