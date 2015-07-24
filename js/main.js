@@ -23,7 +23,7 @@ $(function() {
       });
       },
       unmatch : function()  {
-        stickyNav(800);  
+        stickyNav(300);  
       }
     });
 
