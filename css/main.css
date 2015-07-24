@@ -706,7 +706,7 @@ hr {
 	position:relative;
 	margin-top:0;
 	height:180px;
-	background-color:black;
+	background: url('/images/footer_lodyas.png')
 	position:relative;
 	padding:2em 0;
 	color:white;
