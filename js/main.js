@@ -6,20 +6,18 @@ $(document).ready(function(){
 $(function() {  
     var navTop = $('.menu-links').offset().top;  
 
-    var stickyNav = function(){  
+    var stickyNav = function(stick){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 500) {   
+        if (scrollTop > navTop + stick) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
         }  
     };  
 
-    stickyNav();  
-
     $(window).scroll(function() {  
-        stickyNav();  
+        stickyNav(500);  
     });  
 }); 
 
