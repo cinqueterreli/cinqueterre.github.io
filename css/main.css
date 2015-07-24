@@ -444,6 +444,7 @@ hr {
 	margin: .2em auto 1em auto;
 }
 
+
 .menu-links li {
 	display:inline-block;
 
@@ -453,6 +454,7 @@ hr {
 	color:black;
 	font-size: .8em;
 	padding:.5em 1.5em;
+	margin-bottom:.2em;
 	text-decoration:none;
 	display:block;
 }
