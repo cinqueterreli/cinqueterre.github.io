@@ -713,6 +713,11 @@ hr {
 	clear:both;
 }
 
+.foot-contain {
+	width:100%;
+	text-align:center;
+}
+
 .third {
 	width:30%;
 	float:left;
