@@ -713,6 +713,10 @@ hr {
 	clear:both;
 }
 
+.footerhead {
+	font-family:bodyText;
+}
+
 .foot-contain {
 	width:100%;
 	text-align:center;
