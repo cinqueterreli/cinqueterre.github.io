@@ -705,7 +705,7 @@ hr {
 #site-footer {
 	position:relative;
 	margin-top:0;
-	height:250px;
+	height:280px;
 	background: url('/images/footer_lodyas.png');
 	position:relative;
 	padding:2em 0;
@@ -726,10 +726,12 @@ hr {
 	width:33%;
 	float:left;
 	font-family:bodyText!important;
+	padding-bottom:2em;
 }
 
 .hours {
 	display:block;
+	width:80%;
 }
 
 .day {
