@@ -489,12 +489,19 @@ hr {
 	}
 }
 
+@media(max-width:550px){
+	.menu-content {
+		padding:1em;
+	}
+}
+
 .in {
 	display:none;
 }
 
 .out {
 	display:none;
+	max-width:;
 }
 
 .menu-container{
