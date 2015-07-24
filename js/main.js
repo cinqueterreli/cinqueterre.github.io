@@ -18,9 +18,15 @@ $(function() {
 
     enquire.register("screen and (min-width:1100px)",{
       match : function() {
-        $(window).scroll(function() {  
+    $(window).scroll(function() {  
         stickyNav(500);  
-      });  
+      });
+      },
+      unmatch : function()  {
+        stickyNav(800);  
+      }
+    });
+
 
 }); 
 
