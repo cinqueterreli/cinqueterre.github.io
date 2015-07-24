@@ -483,9 +483,8 @@ hr {
 	}
 
 	.out {
-		display:inline-block;
 		position:absolute;
-		top:36em;
+		right:0;
 	}
 }
 
@@ -496,12 +495,11 @@ hr {
 }
 
 .in {
-	display:none;
+	visibility:hidden;
 }
 
 .out {
-	display:none;
-	max-width:;
+	visibility:hidden;
 }
 
 .menu-container{
