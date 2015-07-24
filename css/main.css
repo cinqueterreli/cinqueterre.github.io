@@ -728,6 +728,19 @@ hr {
 	font-family:bodyText!important;
 }
 
+.hours {
+	display:block;
+}
+
+.day {
+	float:left;
+	text-align:left;
+}
+
+.time {
+	float:right;
+	text-align:right;
+}
 
 
 /* -----UTILITIES----- */
