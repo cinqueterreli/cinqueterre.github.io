@@ -473,6 +473,28 @@ hr {
 	margin-bottom:4em;
 }
 
+@media(max-width:700px){
+	.sidebar {
+		display:none;
+	}
+
+	.menu-content {
+		width:100%;
+	}
+
+	.out {
+		display:inline-block;
+	}
+}
+
+.in {
+	display:none;
+}
+
+.out {
+	display:none;
+}
+
 .menu-container{
 	max-width:500px;
 	margin: 1em auto;
