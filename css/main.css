@@ -713,6 +713,11 @@ hr {
 	clear:both;
 }
 
+.third {
+	width:30%;
+	float:left;
+}
+
 
 
 /* -----UTILITIES----- */
