@@ -723,16 +723,14 @@ hr {
 }
 
 .third {
-	width:33%;
-	float:left;
 	font-family:bodyText!important;
 	padding-bottom:1em;
 }
 
-@media(max-width:950px){
+@media(min-width:950px){
 	.third {
-		float:none;
-		display:block;
+		width:33%;
+		float:left;
 	}
 }
 
