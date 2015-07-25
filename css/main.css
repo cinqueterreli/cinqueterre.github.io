@@ -729,6 +729,13 @@ hr {
 	padding-bottom:1em;
 }
 
+@media(max-width:950px){
+	.third {
+		float:none;
+		display:block;
+	}
+}
+
 .hours {
 	display:block;
 	width:70%;
