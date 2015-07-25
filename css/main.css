@@ -264,8 +264,8 @@ hr {
 
 .navbar {
   	padding: .5em;
-  	float:left;
-  	margin-left:5em;
+  	float:right;
+  	margin-right:3em;
   	position:relative;
 }
 
