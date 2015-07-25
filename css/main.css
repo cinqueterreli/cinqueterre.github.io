@@ -705,7 +705,7 @@ hr {
 #site-footer {
 	position:relative;
 	margin-top:0;
-	min-height:330px;
+	min-height:360px;
 	background: url('/images/footer_lodyas.png');
 	position:relative;
 	color:white;
@@ -724,8 +724,9 @@ hr {
 
 .third {
 	font-family:bodyText!important;
-	padding: 1.5em 0;
+	padding: 1.5em 0 .5em 0;
 	display:block;
+	height:350px;
 }
 
 @media(min-width:950px){
