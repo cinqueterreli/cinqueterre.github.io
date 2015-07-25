@@ -715,6 +715,7 @@ hr {
 
 .footerhead {
 	font-family:bodyText;
+	margin-bottom:.5em;
 }
 
 .foot-contain {
@@ -724,7 +725,7 @@ hr {
 
 .third {
 	font-family:bodyText!important;
-	padding-bottom:1em;
+	padding: 1em 0;
 }
 
 @media(min-width:950px){
