@@ -708,14 +708,13 @@ hr {
 	height:330px;
 	background: url('/images/footer_lodyas.png');
 	position:relative;
-	padding:2em 0;
 	color:white;
 	clear:both;
 }
 
 .footerhead {
 	font-family:bodyText;
-	margin-bottom:.5em;
+	margin-bottom:1em;
 }
 
 .foot-contain {
@@ -725,7 +724,7 @@ hr {
 
 .third {
 	font-family:bodyText!important;
-	padding: 1em 0;
+	padding: 1.5em 0;
 }
 
 @media(min-width:950px){
