@@ -738,8 +738,7 @@ hr {
 
 .hours {
 	display:block;
-	max-width:250px;
-	font-size:.9em;
+	max-width:300px;
 	margin:0 auto;
 }
 
