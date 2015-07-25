@@ -269,7 +269,7 @@ hr {
   	position:relative;
 }
 
-@media(max-width:950px){
+@media(max-width:975px){
 	.navbar {
 		display:none;
 	}
@@ -330,7 +330,7 @@ hr {
 	cursor:pointer;
 }
 
-@media (max-width:1100px){
+@media (max-width:975px){
 	.hamburger {
 		display:inline-block;
 	}

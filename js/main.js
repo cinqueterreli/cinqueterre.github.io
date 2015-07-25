@@ -72,7 +72,7 @@ $('.sidebar-link').click(function(){
 
 // ------ Media Queries ------ //
 
-  enquire.register("screen and (min-width:1100px)",{
+  enquire.register("screen and (min-width:975px)",{
     match : function() {
       $('.mobile-nav').css('display', 'none')
       $('.x').css('display','none')
