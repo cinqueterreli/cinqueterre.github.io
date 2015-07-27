@@ -621,6 +621,7 @@ hr {
 	display:block;
 	max-width:400px;
 	margin: 0 auto 2em auto;
+	font-family:bodyBold;
 }
 
 .middle {
