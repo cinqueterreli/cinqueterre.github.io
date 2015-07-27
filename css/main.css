@@ -615,8 +615,11 @@ hr {
 }
 
 .event-img {
-	float:right;
 	max-width:100%;
+}
+
+.middle {
+	text-align:center;
 }
 
 .event-left {
@@ -733,9 +736,18 @@ hr {
 	height:350px;
 }
 
+.body-third {
+	display:block;
+	max-width:250px;
+}
+
 @media(min-width:950px){
 	.third {
 		width:33%;
+		float:left;
+	}
+	.body-third {
+		width: 33%;
 		float:left;
 	}
 }
