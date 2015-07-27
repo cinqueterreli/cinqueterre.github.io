@@ -644,13 +644,13 @@ hr {
 }
 
 .event-date {
+	float:left;
 	font-size:1.8em;
-	display:inline-block;
 	width:30%;
 }
 
 .event {
-	display:inline-block;
+	float:left;
 	width:70%;
 }
 
