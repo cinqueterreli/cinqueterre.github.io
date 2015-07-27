@@ -705,7 +705,6 @@ hr {
 /* ----- Footer ------ */
 
 #site-footer {
-	border-top:2px solid black;
 	position:relative;
 	margin-top:0;
 	min-height:365px;
