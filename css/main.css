@@ -645,7 +645,6 @@ hr {
 
 .event-entry {
 	text-align:center;
-	margin-bottom:2em;
 }
 
 .event-date {
@@ -658,6 +657,7 @@ hr {
 .event {
 	float:left;
 	width:70%;
+	margin-bottom:3em;
 }
 
 @media(max-width:800px){
@@ -666,6 +666,9 @@ hr {
 	}
 	.event {
 		float:none;
+	}
+	.event-entry {
+		text-align:center;
 	}
 }
 
