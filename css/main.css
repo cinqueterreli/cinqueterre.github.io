@@ -462,7 +462,7 @@ hr {
 }
 
 .menu-link:hover {
-	background-color:white!important;
+	background:url('/images/seamless_paper_texture.png')!important;
 	color:black;
 }
 
