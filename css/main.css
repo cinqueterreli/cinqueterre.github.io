@@ -632,6 +632,10 @@ hr {
 		width: 33%;
 		float:left;
 	}
+
+	.contain {
+		max-width:300px;
+	}
 }
 
 .smallmargin {
