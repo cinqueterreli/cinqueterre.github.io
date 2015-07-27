@@ -651,6 +651,7 @@ hr {
 .event-date {
 	font-family:bodyBold;
 	font-size:1.8em;
+	text-align:left;
 }
 
 .event {
