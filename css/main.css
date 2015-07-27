@@ -666,9 +666,7 @@ hr {
 	}
 	.event {
 		float:none;
-	}
-	.event-entry {
-		text-align:center;
+		margin: 0 auto;
 	}
 }
 
