@@ -599,10 +599,8 @@ hr {
 	min-height:225px;
 	padding:.5em 1em;
 	clear:both;
-}
-
-.color {
-	background-color:#F4f4f4;
+	border-bottom:1px solid black;
+	border-bottom-width: 100%
 }
 
 .event-name {
@@ -619,24 +617,14 @@ hr {
 	max-width:100%;
 }
 
-.middle {
-	text-align:center;
-}
-
-.event-left {
-	max-width:250px;
-	float:left;
-	padding:1em 0;
-}
-
-.event-right {
-	float:right;
-}
-
 .body-third {
 	display:block;
 	max-width:400px;
 	margin: 0 auto 2em auto;
+}
+
+.middle {
+	text-align:center;
 }
 
 @media(min-width:1100px){
