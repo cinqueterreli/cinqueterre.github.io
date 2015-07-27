@@ -649,30 +649,23 @@ hr {
 
 .event-date {
 	font-family:bodyBold;
-	float:left;
 	font-size:1.8em;
-	width:30%;
 }
 
 .event {
-	float:left;
-	width:70%;
-	margin-bottom:3em;
+	margin: 0 auto 3em auto
 }
 
-@media(max-width:800px){
+@media(min-width:800px){
 	.event-date {
-		float:none;
-		margin-left:1em;
-		width:100%;
+		float:left;
+		width:30%;
 	}
 	.event {
-		float:none;
-		margin: 0 auto 3em auto;
-		width:100%;
+		float:left;
+		width:70%;
 	}
 }
-
 
 /* -----COLUMNS----- */
 
