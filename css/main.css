@@ -664,10 +664,12 @@ hr {
 	.event-date {
 		float:none;
 		margin-left:1em;
+		width:100%;
 	}
 	.event {
 		float:none;
 		margin: 0 auto 3em auto;
+		width:100%;
 	}
 }
 
