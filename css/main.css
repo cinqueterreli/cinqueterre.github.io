@@ -643,23 +643,15 @@ hr {
 	margin-bottom:.2em;
 }
 
-@media(max-width:840px){
-	.event-left {
-		float:none;
-		margin: 0 auto;
-	}
-	.event-right {
-		float:none;
-		margin: 0 auto;
-	}
-	.event-img {
-		float:none;
-		margin: 0 auto;
-	}
+.event-date {
+	font-size:1.8em;
+	display:inline-block;
+	width:30%;
+}
 
-	.event-holder {
-		text-align:center;
-	}
+.event {
+	display:inline-block;
+	width:70%;
 }
 
 
