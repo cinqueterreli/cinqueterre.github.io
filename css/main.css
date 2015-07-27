@@ -663,6 +663,7 @@ hr {
 @media(max-width:800px){
 	.event-date {
 		float:none;
+		margin-left:1em;
 	}
 	.event {
 		float:none;
