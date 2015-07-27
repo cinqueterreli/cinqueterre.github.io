@@ -643,6 +643,10 @@ hr {
 	margin-bottom:.2em;
 }
 
+.event-entry {
+	text-align:center;
+}
+
 .event-date {
 	font-family:bodyBold;
 	float:left;
