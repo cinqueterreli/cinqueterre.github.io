@@ -612,6 +612,7 @@ hr {
 
 .event-des {
 	font-size:1.5em;
+	margin: 0 auto;
 }
 
 .event-img {
@@ -630,6 +631,19 @@ hr {
 
 .event-right {
 	float:right;
+}
+
+.body-third {
+	display:block;
+	max-width:400px;
+	margin: 0 auto 2em auto;
+}
+
+@media(min-width:1100px){
+	.body-third {
+		width: 33%;
+		float:left;
+	}
 }
 
 .smallmargin {
@@ -736,18 +750,11 @@ hr {
 	height:350px;
 }
 
-.body-third {
-	display:block;
-	max-width:250px;
-}
+
 
 @media(min-width:950px){
 	.third {
 		width:33%;
-		float:left;
-	}
-	.body-third {
-		width: 33%;
 		float:left;
 	}
 }
