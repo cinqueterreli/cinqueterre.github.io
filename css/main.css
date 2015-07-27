@@ -657,6 +657,10 @@ hr {
 	margin: 0 auto 3em auto
 }
 
+.event-flyer {
+	width:100%;
+}
+
 @media(min-width:800px){
 	.event-date {
 		float:left;
