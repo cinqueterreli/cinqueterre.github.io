@@ -5,8 +5,8 @@
 }
 
 #images {
-  float: left;
-  width: 600px;
+  width:100%;
+  margin:0 auto;
 }
 
 #details {
@@ -14,34 +14,10 @@
 }
 
 
-
-h1
-
-{
-
-  background: inherit;
-
-  border-bottom: 1px dashed #ccc;
-
-  color: #933;
-
-  font: 32px Georgia, serif;
-        font-weight: bold;
-
-  margin: 0 0 20px;
-
-  padding: 0 0 15px;
-
-  text-align: center;
-
-}
-
-
-
 .gallery
 
 {
-        width: 700px;
+  width: 80%;
 
   cursor: default;
 
@@ -69,7 +45,7 @@ h1
 
   vertical-align: top;
 
-  width: 150px;
+  width: 200px;
 
   height: 150px;
 
