@@ -26,6 +26,12 @@
 
 }
 
+@media(max-width:1105px){
+  .gallery {
+    width:100%;
+  }
+}
+
 
 
 .gallery img
