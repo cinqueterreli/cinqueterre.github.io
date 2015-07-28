@@ -6,10 +6,10 @@ $(document).ready(function(){
 $(function() {  
     var navTop = $('.menu-links').offset().top;  
 
-    var stickyNav = function(stick){  
+    var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + stick) {   
+        if (scrollTop > navTop + 500) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
@@ -17,7 +17,7 @@ $(function() {
     };  
 
     $(window).scroll(function() {  
-        stickyNav(500);  
+        stickyNav();  
       });
 
 }); 
@@ -34,15 +34,6 @@ $('.sidebar-link').click(function(){
 /*--- Dropdown Menu Functionality ---*/
 
 
-/*--- Event Page slide toggle ----*/
-
-  $("#weekly-events").click(function(){
-      $('#weekly-content').slideToggle(400);
-  });
-
-  $("#upcoming-events").click(function(){
-      $('#upcoming-content').slideToggle(400);
-  });
 
 /* ----- Box Shadow Changes on click ------- */
 
