@@ -16,7 +16,6 @@
 .gallery
 
 {
-  width: 80%;
 
   cursor: default;
 
@@ -26,8 +25,13 @@
 
 }
 
+.gallery-contain {
+  width:80%;
+  margin:0 auto;
+}
+
 @media(max-width:1105px){
-  .gallery {
+  .gallery-contain {
     width:100%;
   }
 }
