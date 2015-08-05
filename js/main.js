@@ -29,6 +29,13 @@ $('.sidebar-link').click(function(){
     return false;
 });
 
+$('.location-link').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 1000);
+    return false;
+});
+
 
 
 /*--- Dropdown Menu Functionality ---*/
