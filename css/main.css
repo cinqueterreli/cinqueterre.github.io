@@ -255,6 +255,23 @@ hr {
 	float: left;
 }
 
+.location-link {
+  font-family: scriptHead;
+  font-size: 1.5em;
+  color: white;
+  background-color: black;
+  padding: .25em .5em;
+  border-radius: 5px;
+  position: absolute;
+  left: 2em;
+  margin-top: 18em;
+  opacity: .75;
+}
+
+.location-link:hover {
+	opacity: 1;
+}
+
 .overlay-head {
 	margin-top:-4em;
 	z-index:1000;
