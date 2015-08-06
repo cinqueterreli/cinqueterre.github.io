@@ -734,6 +734,12 @@ hr {
 	margin-right:2em;
 }
 
+@media(max-width:950px){
+	.quote, .press-logo {
+		float:none;
+	}
+}
+
 
 /* -----COLUMNS----- */
 
