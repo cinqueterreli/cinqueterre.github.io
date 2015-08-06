@@ -715,6 +715,10 @@ hr {
 	max-width:40%;
 }
 
+.logo-img {
+	max-width:100%;
+}
+
 .quote {
 	float:left;
 	max-width:60%;
