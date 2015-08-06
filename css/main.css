@@ -265,6 +265,7 @@ hr {
   left: 2em;
   margin-top: 18em;
   opacity: .75;
+  display:none;
 }
 
 .location-link:hover {
