@@ -706,6 +706,10 @@ hr {
 
 /* ---- Press ---- */
 
+.press-box {
+	padding: 2em;
+}
+
 .press-logo {
 	float:left;
 	max-width:40%;
