@@ -723,18 +723,17 @@ hr {
 .quote {
 	float:left;
 	max-width:60%;
+	font-size:1.5em;
 }
 
 .block-quote {
 	text-align:left;
 	font-family:bodyBold;
-	font-size:1.5em;
 	margin-left:3em;
 	margin-bottom:0;
 }
 
 .quote-source {
-	font-size:1.5em;
 	text-align:right;
 	margin-right:2em;
 }
@@ -757,6 +756,13 @@ hr {
 
 	.press-box {
 		padding:1em 0;
+	}
+}
+
+@media(max-width:650px){
+	.quote {
+		max-width:95%;
+		font-size:1.25em;
 	}
 }
 
