@@ -717,6 +717,7 @@ hr {
 
 .logo-img {
 	max-width:95%;
+	box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
 }
 
 .quote {
