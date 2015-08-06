@@ -725,10 +725,11 @@ hr {
 	font-family:bodyBold;
 	font-size:1.5em;
 	margin-left:3em;
+	margin-bottom:0;
 }
 
 .quote-source {
-	font-size:1.3em;
+	font-size:1.5em;
 	text-align:right;
 	margin-right:2em;
 }
