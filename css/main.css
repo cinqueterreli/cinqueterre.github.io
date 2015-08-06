@@ -743,6 +743,7 @@ hr {
 	.press-logo {
 		float:none;
 		max-width:100%;
+		margin:0 auto;
 	}
 	.block-quote {
 		margin-left:0;
