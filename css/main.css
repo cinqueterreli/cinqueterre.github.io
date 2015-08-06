@@ -708,12 +708,12 @@ hr {
 
 .press-logo {
 	float:left;
-	max-width:400px;
+	max-width:40%;
 }
 
 .quote {
 	float:left;
-	max-width:400px;
+	max-width:60%;
 }
 
 .block-quote {
@@ -724,8 +724,9 @@ hr {
 }
 
 .quote-source {
-	font-size:1.2em;
+	font-size:1.3em;
 	text-align:right;
+	margin-right:2em;
 }
 
 
