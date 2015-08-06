@@ -708,16 +708,19 @@ hr {
 
 .press-logo {
 	float:left;
+	max-width:400px;
 }
 
 .quote {
 	float:left;
+	max-width:400px;
 }
 
 .block-quote {
-	text-align:center;
-	font-family:scriptHead;
+	text-align:left;
+	font-family:bodyBold;
 	font-size:1.5em;
+	margin-left:3em;
 }
 
 .quote-source {
