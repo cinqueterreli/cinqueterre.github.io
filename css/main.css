@@ -749,6 +749,10 @@ hr {
 	.block-quote {
 		margin-left:0;
 	}
+
+	.press-box {
+		padding:1em 0;
+	}
 }
 
 
