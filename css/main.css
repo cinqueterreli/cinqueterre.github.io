@@ -735,8 +735,14 @@ hr {
 }
 
 @media(max-width:950px){
-	.quote, .press-logo {
+	.quote {
 		float:none;
+		max-width:80%;
+	}
+
+	.press-logo {
+		float:none;
+		max-width:100%;
 	}
 }
 
