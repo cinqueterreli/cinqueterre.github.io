@@ -704,6 +704,28 @@ hr {
 	}
 }
 
+/* ---- Press ---- */
+
+.press-logo {
+	float:left;
+}
+
+.quote {
+	float:left;
+}
+
+.block-quote {
+	text-align:center;
+	font-family:scriptHead;
+	font-size:1.5em;
+}
+
+.quote-source {
+	font-size:1.2em;
+	text-align:right;
+}
+
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
