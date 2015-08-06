@@ -744,6 +744,9 @@ hr {
 		float:none;
 		max-width:100%;
 	}
+	.block-quote {
+		margin-left:0;
+	}
 }
 
 
