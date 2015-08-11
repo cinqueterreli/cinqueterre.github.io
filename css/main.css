@@ -298,6 +298,20 @@ hr {
 	z-index:1000;
 }
 
+.social-box {
+	padding:.5em, 1em;
+	text-align:center;
+	position:relative;
+	top:-100px;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:black;
+}
+
+.social-icon {
+	padding:0, .5em;
+}
+
 
 /* -----NAVIGATION----- */
 
