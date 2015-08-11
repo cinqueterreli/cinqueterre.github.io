@@ -276,6 +276,10 @@ hr {
 		font-size:1.25em;
 		left:1em;
 	}
+
+	#wrap {
+		margin-top:34px;
+	}
 }
 
 @media(max-width:500px){
