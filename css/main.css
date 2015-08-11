@@ -137,6 +137,7 @@ hr {
 #wrap {
 	min-height:100%;
 	background:url('/images/seamless_paper_texture.png');
+	margin-top:-40px;
 }
 
 #main {
@@ -261,10 +262,12 @@ hr {
   background:url('/images/seamless_paper_texture.png');
   padding: .25em .5em;
   border-radius: 5px;
-  position: absolute;
+  position: relative;
   left: 2em;
-  margin-top: 18em;
+  top:-100px;
   opacity: .75;
+  border: 1px solid black;
+  box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
 }
 
 .location-link:hover {
