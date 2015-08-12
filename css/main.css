@@ -744,6 +744,7 @@ hr {
 
 .press-box {
 	padding: 2em;
+	min-height:220px;
 }
 
 .press-logo {
