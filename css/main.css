@@ -804,6 +804,12 @@ hr {
 }
 
 
+/* ----- Catering ----- */
+.catering-blurb {
+	font-size:1.25em;
+}
+
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
