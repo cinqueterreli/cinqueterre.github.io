@@ -818,6 +818,10 @@ hr {
 	float:right;
 }
 
+.clear {
+	clear:both;
+}
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
