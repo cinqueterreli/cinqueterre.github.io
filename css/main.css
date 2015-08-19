@@ -814,7 +814,9 @@ hr {
 	float:left;
 }
 
-.
+.package-price {
+	float:right;
+}
 
 /* -----COLUMNS----- */
 
