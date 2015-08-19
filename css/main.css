@@ -809,6 +809,12 @@ hr {
 	font-size:1.25em;
 }
 
+.package-name {
+	text-align:left; 
+	float:left;
+}
+
+.
 
 /* -----COLUMNS----- */
 
