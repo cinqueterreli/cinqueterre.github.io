@@ -465,14 +465,14 @@ hr {
 	}
 
 	.homepage-image {
-		margin-top:-5em;
+		margin-top:-7em;
 		left:25%;
 	}
 
 	.button-style {
 		position:absolute;
 		right: 4em;
-		margin-top: 12em;
+		margin-top: 10em;
 	}
 }
 
@@ -900,6 +900,7 @@ hr {
 @media (max-width: 700px) {
 	.col-box {
 		height:300px;
+		margin-top:2em;
 	}
 }
 
