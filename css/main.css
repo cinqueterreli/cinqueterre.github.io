@@ -820,10 +820,15 @@ hr {
 
 .package-info {
 	text-align:center;
+	font-size:1.2em;
 }
 
 .clear {
 	clear:both;
+}
+
+.smaller {
+	font-size:1em;
 }
 
 /* -----COLUMNS----- */
