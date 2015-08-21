@@ -485,9 +485,6 @@ hr {
 	max-width: 95%;
 	display:block;
 	position:absolute;
-	top:50%;
-	left:50%;
-	transform:translate(-50%,-50%);
 }
 
 /*------ Menus ------- */
@@ -880,8 +877,6 @@ hr {
 
 .box-content {
 	position:relative;
-	top:50%;
-	transform:translateY(-50%);
 }
 
 
