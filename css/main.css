@@ -832,6 +832,18 @@ hr {
 	font-size:.8em;
 }
 
+.catering-footer {
+	width:100%;
+	background-color:black;
+	padding:1em;
+	font-family:bodyBold;
+	letter-spacing:1px;
+}
+
+.cfooter-info {
+	text-align:center;
+}
+
 /* -----COLUMNS----- */
 
 @media (min-width:700px){
