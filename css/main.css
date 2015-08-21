@@ -486,7 +486,9 @@ hr {
 	.promo-blurb {
 		padding:0 1em;
 	}
+}
 
+@media (max-width:550px){
 	.homepage-image {
 		left:15%;
 	}
