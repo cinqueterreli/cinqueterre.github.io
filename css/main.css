@@ -500,13 +500,19 @@ hr {
 
 @media (max-width:450px) {
 	.homepage-image {
-		left:5%;
+		left:8%;
 	}
 }
 
 @media (max-width:400px) {
 	.homepage-image {
-		left:0;
+		left:5%;
+	}
+}
+
+@media (max-width:350px) {
+	.homepage-image {
+		left:2%;
 	}
 }
 
