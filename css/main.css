@@ -476,9 +476,19 @@ hr {
 	}
 }
 
+@media (max-width:600px){
+	.homepage-image {
+		left:20%;
+	}
+}
+
 @media (max-width:500px) {
 	.promo-blurb {
 		padding:0 1em;
+	}
+
+	.homepage-image {
+		left:15%;
 	}
 }
 
