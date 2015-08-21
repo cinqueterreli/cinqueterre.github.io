@@ -666,6 +666,7 @@ hr {
 .event-des {
 	font-size:1.3em;
 	margin: 0 auto;
+	font-family:bodyText;
 }
 
 .event-img {
