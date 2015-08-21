@@ -482,15 +482,31 @@ hr {
 	}
 }
 
+@media (max-width:550px){
+	.homepage-image {
+		left:15%;
+	}
+}
+
 @media (max-width:500px) {
 	.promo-blurb {
 		padding:0 1em;
 	}
+
+	.homepage-image {
+		left:10%;
+	}
 }
 
-@media (max-width:550px){
+@media (max-width:450px) {
 	.homepage-image {
-		left:15%;
+		left:5%;
+	}
+}
+
+@media (max-width:400px) {
+	.homepage-image {
+		left:0;
 	}
 }
 
