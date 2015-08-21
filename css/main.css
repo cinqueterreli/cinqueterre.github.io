@@ -904,11 +904,11 @@ hr {
 	position:relative;
 	color:white;
 	clear:both;
+	letter-spacing:1px;
 }
 
 .footerhead {
 	font-family:bodyText;
-	letter-spacing:1px;
 	font-size:1.5em;
 	margin-bottom:1em;
 }
