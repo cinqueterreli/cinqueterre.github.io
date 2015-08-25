@@ -907,7 +907,7 @@ hr {
 .col-box {
 	position:relative;
 	padding:2em 1em;
-	height:325px;
+	min-height:325px;
 	margin: auto 0;
 }
 
