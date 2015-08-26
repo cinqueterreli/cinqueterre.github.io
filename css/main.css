@@ -196,10 +196,18 @@ hr {
 .header-bar {
 	margin-bottom: -5.1em;
 	padding-top:.6em;
-	background-color:rgba(255 255 255 .5);
 	position:absolute;
 	width:100%;
 }
+
+.header-bar-default {
+	padding-top:.6em;
+	position:relative;
+	height:220px;
+	background: url('/images/seamless_paper_texture.png');
+	width:100%;
+}
+
 
 .site-header {
 }
