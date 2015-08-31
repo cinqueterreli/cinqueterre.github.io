@@ -308,14 +308,9 @@ hr {
 }
 
 .social-box {
-	padding:.5em, 1em;
-	text-align:center;
-	position:relative;
-	top:-100px;
-	margin-left:auto;
-	margin-right:auto;
-	background-color:black;
-	display:none;
+    text-align: center;
+    position: relative;
+    top: -150px;
 }
 
 .social-icon {
