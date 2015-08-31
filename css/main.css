@@ -75,9 +75,6 @@ a {
 	text-decoration:none;
 }
 
-a:hover {
-	cursor:pointer;
-}
 
 a.button-link {
   color:black;
@@ -1023,10 +1020,6 @@ hr {
 
 .social-icon {
 	padding:0, .5em;
-}
-
-.social-icon:hover {
-	cursor:pointer;
 }
 
 
