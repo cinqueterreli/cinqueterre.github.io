@@ -70,12 +70,31 @@ $('.location-link').click(function(){
 
 
  $('#facebook').mouseenter(function(){
-  $(this).attr("src", "/images/facebookactive.png")
+  $(this).attr("src", "/images/facebookactive.gif")
  });
 
  $('#facebook').mouseleave(function(){
-  $(this).attr("src", "/images/facebook.png")
+  $(this).attr("src", "/images/facebook.gif")
  });
+
+
+ $('#instagram').mouseenter(function(){
+  $(this).attr("src", "/images/instagramactive.gif")
+ });
+
+ $('#instagram').mouseleave(function(){
+  $(this).attr("src", "/images/instagram.gif")
+ });
+
+
+ $('#twitter').mouseenter(function(){
+  $(this).attr("src", "/images/twitteractive.gif")
+ });
+
+ $('#twitter').mouseleave(function(){
+  $(this).attr("src", "/images/twitter.gif")
+ });
+
 
 
 // ------ Media Queries ------ //
