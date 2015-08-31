@@ -68,6 +68,16 @@ $('.location-link').click(function(){
 
 
 
+
+ $('#facebook').mouseenter(function(){
+  $(this).attr("src", "/images/facebookactive.png")
+ });
+
+ $('#facebook').mouseleave(function(){
+  $(this).attr("src", "/images/facebook.png")
+ });
+
+
 // ------ Media Queries ------ //
 
   enquire.register("screen and (min-width:975px)",{
@@ -106,13 +116,6 @@ $('.location-link').click(function(){
     }
 
   });
-
-function hover(element, url) {
-    element.setAttribute('src', url);
-};
-function unhover(element, url) {
-    element.setAttribute('src', url);
-};
 
 
 
