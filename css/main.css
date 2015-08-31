@@ -76,7 +76,7 @@ a {
 }
 
 a:hover {
-
+	cursor:pointer;
 }
 
 a.button-link {
@@ -1023,6 +1023,9 @@ hr {
 
 .social-icon {
 	padding:0, .5em;
+}
+
+.social-icon:hover {
 	cursor:pointer;
 }
 
