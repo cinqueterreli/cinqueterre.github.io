@@ -851,8 +851,8 @@ hr {
 /* ----- Catering ----- */
 
 .image-holder {
-	width:750px;
-	margin: 0 auto;
+	width:800px;
+	margin: 0 auto 3em auto;
 	text-align:center;
 }
 
