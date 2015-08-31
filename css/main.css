@@ -1012,8 +1012,8 @@ hr {
 }
 
 @media(min-width:950px){
-	.social-box {
-		margin-top:10px;
+	#lower {
+		margin-top:10em;
 	}
 }
 
