@@ -849,6 +849,15 @@ hr {
 
 
 /* ----- Catering ----- */
+
+.image-holder {
+	width:750px;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+
 .catering-blurb {
 	font-size:1.25em;
 }
