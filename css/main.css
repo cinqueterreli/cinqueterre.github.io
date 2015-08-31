@@ -1011,8 +1011,8 @@ hr {
     margin:0 auto;
 }
 
-@media(max-width:950px){
-	.social-box{
+@media(min-width:950px){
+	.social-box {
 		margin-top:10px;
 	}
 }
