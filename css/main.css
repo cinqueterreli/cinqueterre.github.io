@@ -865,7 +865,8 @@ hr {
 }
 
 .room {
-	
+	display:inline-block;
+	margin:.5em 1em;
 }
 
 
