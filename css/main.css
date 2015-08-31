@@ -307,22 +307,6 @@ hr {
 	z-index:1000;
 }
 
-.social-box {
-    text-align: center;
-    width:250px;
-    margin:0 auto;
-
-}
-
-.social-box a {
-	display:inline-block;
-}
-
-.social-icon {
-	padding:0, .5em;
-	cursor:pointer;
-}
-
 
 /* -----NAVIGATION----- */
 
@@ -1017,6 +1001,29 @@ hr {
 
 .number {
 	font-size:1.5em;
+}
+
+
+
+.social-box {
+    text-align: center;
+    width:250px;
+    margin:0 auto;
+}
+
+@media(max-width:950px){
+	.social-box{
+		margin-top:10px;
+	}
+}
+
+.social-box a {
+	display:inline-block;
+}
+
+.social-icon {
+	padding:0, .5em;
+	cursor:pointer;
 }
 
 
