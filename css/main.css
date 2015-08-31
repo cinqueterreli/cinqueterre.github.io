@@ -311,9 +311,7 @@ hr {
     text-align: center;
     width:250px;
     margin:0 auto;
-    position: relative;
-    top: -150px;
-    display:none;
+
 }
 
 .social-box a {
