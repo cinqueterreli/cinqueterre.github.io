@@ -313,8 +313,13 @@ hr {
     top: -150px;
 }
 
+.social-box a {
+	display:inline-block;
+}
+
 .social-icon {
 	padding:0, .5em;
+	cursor:pointer;
 }
 
 
