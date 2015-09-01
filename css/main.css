@@ -969,6 +969,7 @@ hr {
     top: 2em;
     left: 2em;
     max-width: 80px;
+    display: none;
 }
 
 #site-footer {
