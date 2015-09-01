@@ -865,7 +865,7 @@ hr {
 
 @media(max-width:425px){
 	.room {
-		margin: .5em 0;
+		margin: .5em 0!important;
 	}
 }
 
