@@ -967,8 +967,8 @@ hr {
 	cursor:pointer;
 	position: fixed;
     top: 7em;
-    left: 2em;
-    max-width: 80px;
+    left: 1em;
+    max-width: 70px;
     display: none;
 }
 
