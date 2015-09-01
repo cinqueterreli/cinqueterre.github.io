@@ -29,7 +29,7 @@ $('.sidebar-link').click(function(){
     return false;
 });
 
-$('.location-link').click(function(){
+$('.location-link, .location-link-default').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 1000);
