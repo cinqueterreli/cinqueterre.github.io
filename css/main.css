@@ -76,6 +76,10 @@ a {
 	text-decoration:none;
 }
 
+a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
+       cursor: pointer;
+}
+
 
 a.button-link {
   color:black;
