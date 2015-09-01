@@ -964,6 +964,7 @@ hr {
 
 
 .up-arrow {
+	background: url('/images/uparrow.gif');
 	cursor:pointer;
 	position: fixed;
     top: 2em;
