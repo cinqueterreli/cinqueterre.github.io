@@ -67,7 +67,7 @@ $('.location-link').click(function(){
   });
 
 
-
+/* --- image changes for social links --- */
 
  $('#facebook').mouseenter(function(){
   $(this).attr("src", "/images/facebookactive.gif")
@@ -95,6 +95,11 @@ $('.location-link').click(function(){
   $(this).attr("src", "/images/twitter.gif")
  });
 
+
+
+$(a).mouseenter(function(){
+  $(this).attr("cursor", "pointer")
+});
 
 
 // ------ Media Queries ------ //
