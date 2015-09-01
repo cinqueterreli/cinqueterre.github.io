@@ -12,11 +12,16 @@ $(function() {
 
         if (scrollTop > navTop + 500) {   
             $('.sidebar').addClass('sticky');  
-        } else if (scrollTop > footerTop - 200) {
-            $('.sidebar').removeClass('sticky');
         } else {  
             $('.sidebar').removeClass('sticky');   
-        }  
+        }
+
+        if (scrollTop > footerTop - 300) {
+            $('.sidebar').removeClass('sticky');
+        }  else {  
+            $('.sidebar').addClass('sticky');   
+        }
+
     };  
 
     $(window).scroll(function() {  
