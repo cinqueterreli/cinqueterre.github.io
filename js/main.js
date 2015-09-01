@@ -43,14 +43,14 @@ $('.location-link, .location-link-default').click(function(){
  $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
-                $('.up-arrow').fadeIn();
+                $('#up-arrow').fadeIn();
             } else {
-                $('.up-arrow').fadeOut();
+                $('#up-arrow').fadeOut();
             }
         });
  
         // scroll body to 0px on click
-        $('.up-arrow').click(function () {
+        $('#up-arrow').click(function () {
             $('body,html').animate({
                 scrollTop: 0
             }, 800);
