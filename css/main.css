@@ -962,6 +962,12 @@ hr {
 
 /* ----- Footer ------ */
 
+
+.up-arrow {
+	cursor:pointer;
+	position:absolute;
+}
+
 #site-footer {
 	position:relative;
 	margin-top:0;
