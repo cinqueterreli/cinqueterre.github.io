@@ -630,6 +630,7 @@ hr {
 .item-des {
 	clear:both;
   	margin-bottom: 1em;
+  	font-size:1.2em;
 }
 
 .aside {
@@ -685,6 +686,7 @@ hr {
 
 .indent {
 	text-indent:.5em;
+	font-size:1.2em;
 }
 
 
