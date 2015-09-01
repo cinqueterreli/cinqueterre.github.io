@@ -10,16 +10,15 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 500) {   
+        if (scrollTop > navTop + 300) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
         }
 
-        if (scrollTop > footerTop - 900) {
+        if (scrollTop > footerTop - 910) {
             $('.sidebar').removeClass('sticky');
         }  else {  
-            $('.sidebar').addClass('sticky');   
         }
 
     };  
