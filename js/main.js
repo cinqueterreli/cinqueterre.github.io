@@ -4,35 +4,26 @@ $(document).ready(function(){
 /*--- Fixed position changer shit ---*/
 
 $(function() {  
-    var navTop = $('.menu-links').offset().top;  
+    var navTop = $('.menu-links').offset().top;
+    var footerTop = $('#site-footer').offset().top;  
 
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
         if (scrollTop > navTop + 500) {   
             $('.sidebar').addClass('sticky');  
+        } else if (scrollTop > footerTop - 200) {
+            $('.sidebar').removeClass('sticky');
         } else {  
             $('.sidebar').removeClass('sticky');   
         }  
     };  
 
     $(window).scroll(function() {  
-        stickyNav();
-        checkOffset();  
+        stickyNav();  
       });
-});
 
-$(function checkOffset() {
-    if($('.sidebar').offset().top + $('.sidebar').height() 
-                                           >= $('#site-footer').offset().top - 10)
-        $('.sidebar').css('position', 'absolute');
-    if($(document).scrollTop() + window.innerHeight < $('#site-footer').offset().top)
-        $('.sidebar').css('position', 'fixed'); // restore when you scroll up
-}
-
-});
-
-
+}); 
 
 $('.sidebar-link').click(function(){
     $('html, body').animate({
