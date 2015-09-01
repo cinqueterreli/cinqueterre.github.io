@@ -966,7 +966,7 @@ hr {
 .up-arrow {
 	cursor:pointer;
 	position: fixed;
-    top: 2em;
+    top: 7em;
     left: 2em;
     max-width: 80px;
     display: none;
