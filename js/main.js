@@ -96,12 +96,6 @@ $('.location-link').click(function(){
  });
 
 
-
-$(a).mouseenter(function(){
-  $(this).attr("cursor", "pointer")
-});
-
-
 // ------ Media Queries ------ //
 
   enquire.register("screen and (min-width:975px)",{
