@@ -51,7 +51,7 @@ $('.location-link, .location-link-default').click(function(){
  
         // scroll body to 0px on click
         $('#up-arrow').click(function () {
-            $('body,html').animate({
+            $('html, body').animate({
                 scrollTop: 0
             }, 800);
             return false;
