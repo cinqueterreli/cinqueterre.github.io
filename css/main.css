@@ -863,6 +863,12 @@ hr {
 	max-width:360px;
 }
 
+@media(max-width:425px){
+	.room {
+		margin: .5em 0;
+	}
+}
+
 .room-title {
 
 }
