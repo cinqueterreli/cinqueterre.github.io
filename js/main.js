@@ -17,10 +17,22 @@ $(function() {
     };  
 
     $(window).scroll(function() {  
-        stickyNav();  
+        stickyNav();
+        checkOffset();  
       });
+});
 
-}); 
+$(function checkOffset() {
+    if($('.sidebar').offset().top + $('.sidebar').height() 
+                                           >= $('#footer').offset().top - 10)
+        $('.sidebar').css('position', 'absolute');
+    if($(document).scrollTop() + window.innerHeight < $('.site-footer').offset().top)
+        $('.sidebar').css('position', 'fixed'); // restore when you scroll up
+}
+
+});
+
+
 
 $('.sidebar-link').click(function(){
     $('html, body').animate({
