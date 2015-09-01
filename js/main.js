@@ -42,7 +42,7 @@ $('.location-link, .location-link-default').click(function(){
 
 
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 400) {
+            if ($(this).scrollTop() > 600) {
                 $('#up-arrow').fadeIn();
             } else {
                 $('#up-arrow').fadeOut();
