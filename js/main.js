@@ -40,7 +40,7 @@ $('.location-link, .location-link-default').click(function(){
 
 /*--- Up Arrow Function ---*/
 
- $(function () {
+
         $(window).scroll(function () {
             if ($(this).scrollTop() > 50) {
                 $('#up-arrow').fadeIn();
@@ -56,7 +56,6 @@ $('.location-link, .location-link-default').click(function(){
             }, 800);
             return false;
         });
-    });
 
 
 
