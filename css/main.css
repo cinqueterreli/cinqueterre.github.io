@@ -295,7 +295,7 @@ hr {
 }
 
 @media(max-width:750px){
-	.location-link {
+	.location-link, .location-link-default {
 		top:-50px;
 		font-size:1.25em;
 		left:1em;
