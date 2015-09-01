@@ -965,7 +965,10 @@ hr {
 
 .up-arrow {
 	cursor:pointer;
-	position:absolute;
+	position: fixed;
+    top: 2em;
+    left: 2em;
+    max-width: 80px;
 }
 
 #site-footer {
