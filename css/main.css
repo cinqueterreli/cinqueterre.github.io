@@ -1011,11 +1011,10 @@ hr {
     margin:0 auto;
 }
 
-@media(min-width:950px){
-	#lower {
-		margin-top:5em;
-	}
+#lower {
+	margin-top:5em;
 }
+
 
 .social-box a {
 	display:inline-block;
