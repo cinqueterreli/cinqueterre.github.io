@@ -767,6 +767,19 @@ hr {
 	padding:0 1.5em;
 }
 
+@media(max-width:560px){
+	.event-flyer  {
+		width:100%;
+		max-width:inherit;
+	}
+	.event-entry {
+		padding:0;
+	}
+	.event-date {
+		padding:0 1.5em;
+	}
+}
+
 .event-date {
 	font-family:bodyBold;
 	font-size:1.8em;
@@ -778,7 +791,7 @@ hr {
 }
 
 .event-flyer {
-	width:100%;
+	max-width:500px;
 }
 
 @media(min-width:800px){
