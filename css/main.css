@@ -981,8 +981,13 @@ hr {
 	position: fixed;
     top: 7em;
     left: 1em;
-    max-width: 70px;
+    max-width: 55px;
     display: none;
+    opacity:.6;
+}
+
+.up-arrow:hover {
+	opacity:1;
 }
 
 #site-footer {
