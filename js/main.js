@@ -51,7 +51,7 @@ $('.location-link, .location-link-default').click(function(){
 
 
         $(window).scroll(function () {
-            if ($(this).scrollTop() > 600) {
+            if ($(this).scrollTop() > 800) {
                 $('#up-arrow').fadeIn();
             } else {
                 $('#up-arrow').fadeOut();
