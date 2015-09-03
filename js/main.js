@@ -49,14 +49,15 @@ $('.location-link, .location-link-default').click(function(){
 
 /*--- Up Arrow Function ---*/
 
-
-        $(window).scroll(function () {
+enquire.register("screen and (min-width:975px)",{
+    match : $(window).scroll(function() {
             if ($(this).scrollTop() > 800) {
                 $('#up-arrow').fadeIn();
             } else {
                 $('#up-arrow').fadeOut();
             }
         });
+  }
  
         // scroll body to 0px on click
         $('#up-arrow').click(function () {
