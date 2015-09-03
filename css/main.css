@@ -720,7 +720,7 @@ hr {
 }
 
 .event-img {
-	max-width:300px;
+	max-width:100%
 }
 
 .body-third {
@@ -747,6 +747,11 @@ hr {
 	.event-des {
 		padding: 2em 0;
 	}
+
+	.event-img {
+	max-width:300px;
+	}
+
 }
 
 @media(max-width:1100px){
