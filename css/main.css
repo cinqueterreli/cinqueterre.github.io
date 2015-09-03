@@ -679,7 +679,7 @@ hr {
 
 .about-container {
 	width:60%;
-	margin: 1.5em auto 2em auto;
+	margin: 0 auto 2em auto;
 	font-size:1.2em;
 	padding-bottom:2em;
 }
