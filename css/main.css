@@ -710,12 +710,12 @@ hr {
 .event-name {
 	font-size:2em;
 	margin-bottom:1em;
+	padding-top:.5em;
 }
 
 .event-des {
 	font-size:1.3em;
 	margin: 0 auto;
-	padding: 2em 0;
 	font-family:bodyBold;
 }
 
@@ -742,6 +742,10 @@ hr {
 
 	.contain {
 		max-width:300px;
+	}
+
+	.event-des {
+		padding: 2em 0;
 	}
 }
 
