@@ -49,15 +49,17 @@ $('.location-link, .location-link-default').click(function(){
 
 /*--- Up Arrow Function ---*/
 
-enquire.register("screen and (min-width:915px)",{
-    match : $(window).scroll(function() {
+enquire.register("screen and (min-width:975px)",{
+    match : function() {
+        $(window).scroll(function () {
             if ($(this).scrollTop() > 800) {
                 $('#up-arrow').fadeIn();
             } else {
                 $('#up-arrow').fadeOut();
             }
         });
-  }
+      }
+    });
  
         // scroll body to 0px on click
         $('#up-arrow').click(function () {
