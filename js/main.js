@@ -10,7 +10,7 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        if (scrollTop > navTop + 175) {   
+        if (scrollTop > navTop - 100) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
@@ -20,7 +20,7 @@ $(function() {
             $('.sidebar').removeClass('sticky');
             $('.sidebar').css('top', '281em');
         }  else {  
-            $('.sidebar').css('top', '36em');
+            $('.sidebar').css('top', '22em');
         }
 
     };  
