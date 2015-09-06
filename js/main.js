@@ -16,9 +16,9 @@ $(function() {
             $('.sidebar').removeClass('sticky');   
         }
 
-        if (scrollTop > footerTop - 1000) {
+        if (scrollTop > footerTop - 940) {
             $('.sidebar').removeClass('sticky');
-            $('.sidebar').css('top', '281em');
+            $('.sidebar').css('top', '265em');
         }  else {  
             $('.sidebar').css('top', '22em');
         }
