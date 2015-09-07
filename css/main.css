@@ -1001,8 +1001,10 @@ hr {
 
 @media (max-width: 700px) {
 	.col-box {
-		height:300px;
-		margin-top:2em;
+		min-height:300px;
+	}
+	.promo-head {
+		margin-top:1em;
 	}
 }
 
