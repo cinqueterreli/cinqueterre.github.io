@@ -535,6 +535,7 @@ hr {
 	max-width: 95%;
 	display:block;
 	position:absolute;
+	top:2em;
 }
 
 /*------ Menus ------- */
