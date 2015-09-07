@@ -11,9 +11,11 @@ $(function() {
         var scrollTop = $(window).scrollTop();  
 
         if (scrollTop > navTop) {   
-            $('.sidebar, .sidebar-lunch').addClass('sticky');  
+            $('.sidebar').addClass('sticky');
+            $('.sidebar-lunch').addClass('sticky-lunch');  
         } else {  
-            $('.sidebar, .sidebar-lunch').removeClass('sticky');   
+            $('.sidebar').removeClass('sticky');
+            $('.sidebar-lunch').removeClass('sticky-lunch');     
         }
 
         if (scrollTop > footerTop - 1100) {

@@ -660,6 +660,11 @@ hr {
 	margin-top:-325px;
 }
 
+.sticky-lunch {
+	position:fixed;
+	margin-top:-250px;
+}
+
 .sidebar-link {
 	font-family:scriptHead;
 	font-size:1.4em;
