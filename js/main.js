@@ -24,7 +24,7 @@ $(function() {
         }  else {  
             $('.sidebar').css('top', '22em');
         }
-      };
+      }
 
     else if (url = "http://cinqueterreli.github.io/lunch-menu"){
 
@@ -40,7 +40,7 @@ $(function() {
         }  else {  
             $('.sidebar').css('top', '22em');
         }
-      };
+      }
     };  
 
     $(window).scroll(function() {  
