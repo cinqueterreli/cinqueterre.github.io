@@ -26,7 +26,7 @@ $(function() {
         }
       }
 
-    else {
+    else if (url = "http://cinqueterreli.github.io/lunch-menu"){
 
       if (scrollTop > navTop - 100) {   
             $('.sidebar').addClass('sticky');  
