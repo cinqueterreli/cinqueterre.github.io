@@ -20,7 +20,7 @@ $(function() {
 
         if (scrollTop > footerTop - 650) {
             $('.sidebar').removeClass('sticky');
-            $('.sidebar').css('top', '255em');
+            $('.sidebar').css('top', '245em');
         }  else {  
             $('.sidebar').css('top', '22em');
         }
