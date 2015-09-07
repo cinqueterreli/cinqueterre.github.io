@@ -5,11 +5,13 @@ $(document).ready(function(){
 
 $(function() {  
     var navTop = $('.menu-links').offset().top;
-    var footerTop = $('#site-footer').offset().top;  
+    var footerTop = $('#site-footer').offset().top;
+    var url = window.location.href;     // Returns full URL  
 
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
+    if (url = "http://cinqueterreli.github.io/dinner-menu"){
         if (scrollTop > navTop - 100) {   
             $('.sidebar').addClass('sticky');  
         } else {  
@@ -22,7 +24,23 @@ $(function() {
         }  else {  
             $('.sidebar').css('top', '22em');
         }
+      };
 
+    else if (url = "http://cinqueterreli.github.io/lunch-menu"){
+
+      if (scrollTop > navTop - 100) {   
+            $('.sidebar').addClass('sticky');  
+        } else {  
+            $('.sidebar').removeClass('sticky');   
+        }
+
+        if (scrollTop > footerTop - 940) {
+            $('.sidebar').removeClass('sticky');
+            $('.sidebar').css('top', '265em');
+        }  else {  
+            $('.sidebar').css('top', '22em');
+        }
+      };
     };  
 
     $(window).scroll(function() {  
