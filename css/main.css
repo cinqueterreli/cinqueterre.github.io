@@ -472,7 +472,7 @@ hr {
 
 @media (max-width:700px) {
 	.promo-blurb {
-		padding:0 3em;
+		padding:0 3em 3em 3em;
 	}
 	.promo-head {
 		text-align:center;
@@ -487,7 +487,7 @@ hr {
 	.button-style {
 		position:absolute;
 		right: 4em;
-		margin-top: 7em;
+		margin-top: 10em;
 	}
 }
 
@@ -505,7 +505,7 @@ hr {
 
 @media (max-width:500px) {
 	.promo-blurb {
-		padding:0 1em;
+		padding:0 1em 3em 1em;
 	}
 
 	.homepage-image {
