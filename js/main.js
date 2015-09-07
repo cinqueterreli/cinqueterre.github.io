@@ -23,7 +23,7 @@ $(function() {
             $('.sidebar').css('top', '265em');
         }  else if (scrollTop > footerTop - 1300) {
             $('.sidebar-lunch').removeClass('sticky-lunch');
-            $('.sidebar-lunch').css('top', '245em');
+            $('.sidebar-lunch').css('top', '230em');
         }
 
         else {  
