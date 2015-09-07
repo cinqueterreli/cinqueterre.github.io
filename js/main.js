@@ -12,15 +12,15 @@ $(function() {
         var scrollTop = $(window).scrollTop();  
 
     if (url = "http://cinqueterreli.github.io/dinner-menu"){
-        if (scrollTop > navTop - 100) {   
+        if (scrollTop > navTop) {   
             $('.sidebar').addClass('sticky');  
         } else {  
             $('.sidebar').removeClass('sticky');   
         }
 
-        if (scrollTop > footerTop - 940) {
+        if (scrollTop > footerTop - 650) {
             $('.sidebar').removeClass('sticky');
-            $('.sidebar').css('top', '265em');
+            $('.sidebar').css('top', '255em');
         }  else {  
             $('.sidebar').css('top', '22em');
         }
