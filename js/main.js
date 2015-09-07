@@ -21,12 +21,9 @@ $(function() {
         if (scrollTop > footerTop - 1100) {
             $('.sidebar').removeClass('sticky');
             $('.sidebar').css('top', '265em');
-        }  else if (scrollTop > footerTop - 1300) {
-            $('.sidebar-lunch').removeClass('sticky-lunch');
-            $('.sidebar-lunch').css('top', '230em');
-        }
-
-        else {  
+            $('sidebar-lunch').removeClass('sticky-lunch');
+            $('sidebar-lunch').css('top', '230em');
+        }  else {  
             $('.sidebar').css('top', '22em');
             $('.sidebar-lunch').css('top', '22em')
         }
