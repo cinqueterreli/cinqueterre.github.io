@@ -516,7 +516,7 @@ hr {
 @media (max-width:450px) {
 	.homepage-image {
 		left:8%;
-		top:3em;
+		top:3em!important;
 	}
 }
 
