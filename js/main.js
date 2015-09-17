@@ -63,7 +63,7 @@ enquire.register("screen and (min-width:975px)",{
                 $('#up-arrow').fadeOut();
             }
         });
-      };
+      },
     unmatch : function() {
         $('#up-arrow').css('display','none');
     };
