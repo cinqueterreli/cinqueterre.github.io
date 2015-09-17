@@ -581,7 +581,7 @@ hr {
 }
 
 @media(max-width:700px){
-	.sidebar {
+	.sidebar, .sidebar-lunch {
 		display:none;
 	}
 
