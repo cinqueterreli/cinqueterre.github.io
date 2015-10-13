@@ -194,6 +194,10 @@ hr {
 
 /*-------- HEADER ---------*/
 
+.OTButton {
+	display: none;
+}
+
 .header-bar {
 	margin-bottom: -5.1em;
 	padding-top:.6em;
