@@ -200,6 +200,7 @@ hr {
   padding:0 1em;
   display:inline-block;
   text-align:center;
+  display:none;
 }
 
 .promo-event > p {
