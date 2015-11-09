@@ -93,10 +93,6 @@ a.button-link {
   font-size: 1.5em;
 }
 
-.bx-slider {
-	display:none;
-}
-
 .pink {
 	background-color:#F16F89;
 }
@@ -195,6 +191,21 @@ hr {
 	background-color:#f4f4f4;
 	margin-top:-2.5em;
 }
+
+/*------ PROMOS ------ */
+
+.promo-event {
+  width:200px;
+  height:200px;
+  padding:0 1em;
+  display:inline-block;
+  text-align:center;
+}
+
+.promo-event > p {
+  text-align:left;
+}
+
 
 /*-------- HEADER ---------*/
 
