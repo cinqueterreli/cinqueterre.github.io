@@ -1,6 +1,12 @@
 
 $(document).ready(function(){
 
+
+/*---- Content Slider NIGGA ----- */
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
+});
+
 /*--- Fixed position changer shit ---*/
 
 $(function() {  

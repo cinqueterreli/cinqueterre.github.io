@@ -93,6 +93,10 @@ a.button-link {
   font-size: 1.5em;
 }
 
+.bx-slider {
+	display:none;
+}
+
 .pink {
 	background-color:#F16F89;
 }
