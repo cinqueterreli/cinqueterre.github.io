@@ -410,6 +410,12 @@ hr {
 	cursor:pointer;
 }
 
+@media(max-width:1025px){
+	.hamburger{
+		display:inline-block;
+	}
+}
+
 .x {
 	display:none;
 	float:right;
