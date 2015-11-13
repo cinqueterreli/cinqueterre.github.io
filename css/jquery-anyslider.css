@@ -8,7 +8,7 @@
 /* AnySlider can be styled to your liking. This is just example styles */
 .slider {
     border: 1px solid black;
-    height: 200px;
+    height: 225px;
     border-radius: 5px;
     margin: 40px auto;
     padding: 5px;
@@ -25,6 +25,7 @@
     width:50%;
     display:inline-block;
     float:left;
+    padding:0 .5em;
 }
 
 .promo-text {
