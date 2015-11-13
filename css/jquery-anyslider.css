@@ -2,20 +2,23 @@
 .slider {
     -ms-touch-action: pan-y; /* Prevent default touch actions on Windows 8. Only required for IE10 */
     overflow: auto; /* Not required but recommended for accessibility when JavaScript is turned off */
-    position: relative;
     touch-action: pan-y; /* Prevent default touch actions on Windows 8. Supported in IE11+ */
 }
 
 /* AnySlider can be styled to your liking. This is just example styles */
 .slider {
-    border: 1px dotted #333;
-    height: 250px;
+    border: 1px solid black;
+    height: 175px;
+    border-radius: 5px;
     margin: 40px auto;
     padding: 5px;
     text-align: center;
-    width: 100%;
-    display:none;
-    position:absolute;
+    width: 40%;
+    display: none;
+    position: absolute;
+    right: 1em;
+    top: 15em;
+    background: url('/images/seamless_paper_texture.png')
 }
 
 /* The arrows can of course also be styled to your liking. This is just example styles */
