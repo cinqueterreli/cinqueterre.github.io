@@ -17,7 +17,7 @@
     display: none;
     position: absolute;
     right: 1em;
-    top: 15em;
+    top: 18em;
     background: url('/images/seamless_paper_texture.png')
 }
 
@@ -25,7 +25,6 @@
     width:50%;
     display:inline-block;
     float:left;
-    padding:5px;
 }
 
 .promo-text {
