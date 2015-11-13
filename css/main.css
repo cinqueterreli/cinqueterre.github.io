@@ -80,10 +80,6 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
        cursor: pointer;
 }
 
-.vertical-line {
-	border-left:1px solid black;
-}
-
 a.button-link {
   color:black;
   font-family:scriptHead;
