@@ -470,6 +470,17 @@ hr {
 }
 
 
+
+/*---- RESERVATIONS ----*/
+.widget-holder {
+	width:80%;
+	margin: 0 auto;
+	text-align:center;
+}
+
+
+
+
 /* ----- HOMEPAGE ----- */
 
 .homepage-promos {
