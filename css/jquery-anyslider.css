@@ -15,6 +15,7 @@
     text-align: center;
     width: 100%;
     display:none;
+    position:absolute;
 }
 
 /* The arrows can of course also be styled to your liking. This is just example styles */
@@ -77,13 +78,6 @@
 }
 
 /* Other styles not related to AnySlider */
-body {
-    background-color: #fff;
-    color: #333;
-    font: 12px "Trebuchet MS", sans-serif;
-    margin: 0;
-    padding-bottom: 25px;
-}
 
 section {
     display: block;
@@ -95,19 +89,6 @@ section {
     width: 80%;
 }
 
-h1 {
-    font-size: 20px;
-    margin: 10px 0;
-}
-
-p {
-    margin: 10px 0;
-}
-
-ul {
-    margin: 0;
-    padding: 0;
-}
 
 .slider-wrapper {
     height: 275px;
