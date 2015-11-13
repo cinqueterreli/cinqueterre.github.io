@@ -2,10 +2,6 @@
 $(document).ready(function(){
 
 
-/*---- Content Slider NIGGA ----- */
-$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});
 
 /*--- Fixed position changer shit ---*/
 
@@ -142,7 +138,7 @@ enquire.register("screen and (min-width:975px)",{
 
 // ------ Media Queries ------ //
 
-  enquire.register("screen and (min-width:975px)",{
+  enquire.register("screen and (min-width:1125px)",{
     match : function() {
       $('.mobile-nav').css('display', 'none')
       $('.x').css('display','none')

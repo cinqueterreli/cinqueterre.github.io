@@ -419,12 +419,6 @@ hr {
 	cursor:pointer;
 }
 
-@media (max-width:1130px){
-	.hamburger {
-		display:inline-block;
-	}
-}
-
 @media (max-width:420px){
 	.hamburger {
 		max-width:85px;
