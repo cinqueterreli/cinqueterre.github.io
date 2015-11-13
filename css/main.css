@@ -358,7 +358,7 @@ hr {
   	position:relative;
 }
 
-@media(max-width:975px){
+@media(max-width:1130px){
 	.navbar {
 		display:none;
 	}
@@ -419,7 +419,7 @@ hr {
 	cursor:pointer;
 }
 
-@media (max-width:975px){
+@media (max-width:1130px){
 	.hamburger {
 		display:inline-block;
 	}
