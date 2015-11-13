@@ -35,7 +35,7 @@
 /* The arrows can of course also be styled to your liking. This is just example styles */
 .as-prev-arrow,
 .as-next-arrow {
-    background: url(../demo/img/arrows.png) no-repeat;
+    background: url('/images/arrows.png') no-repeat;
     cursor: pointer;
     filter: alpha(opacity=0);
     height: 40px;
