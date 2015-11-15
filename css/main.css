@@ -199,14 +199,14 @@ hr {
 	float:right;
 	width:250px;
 	height:400px;
-	margin-top:-23em;
+	margin-top:-21em;
 	overflow:auto;
 }
 
 .promo-event {
   width:200px;
   height:200px;
-  padding:0 1em;
+  margin: 0 auto;
   display:block;
   text-align:center;
 }
