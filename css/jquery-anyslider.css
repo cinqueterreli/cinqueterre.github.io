@@ -85,7 +85,7 @@
     height: 16px;
     display: inline-block;
     margin: 0 1px;
-    overflow: hidden;
+    overflow: auto;
     text-indent: 100%;
     white-space: nowrap;
     width: 16px;
