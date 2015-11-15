@@ -209,9 +209,6 @@ hr {
 
 /*-------- HEADER ---------*/
 
-.OTButton {
-	display: none;
-}
 
 .header-bar {
 	margin-bottom: -5.1em;
@@ -378,6 +375,21 @@ hr {
 	padding:1em 1.5em;
 	text-decoration:none;
 	display:block;
+}
+
+.sub-link {
+	display:block;
+	color:black;
+	padding:0 1em;
+}
+
+.dropdown-menu {
+	display:none;
+	position:absolute;
+	margin-left:-2em;
+	padding:1em;
+	background-color:rgb(248, 114, 77);
+	list-style:none;
 }
 
 .one:hover {

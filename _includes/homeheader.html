@@ -4,7 +4,12 @@
         <nav class="navbar">
             <ul class="header-nav">
                 <li><a class="nav-link one{% if page.title == "About" %} active{% endif %}" href="{{site.url}}/about">ABOUT</a></li>
-                <li><a class="nav-link two{% if page.title == "Dinner Menu" or page.title == "Lunch Menu" or page.title == "Bar Menu" %} active{% endif %}" href="{{site.url}}/dinner-menu">MENUS</a></li>
+                <li><a class="nav-link two dropdown-link{% if page.title == "Dinner Menu" or page.title == "Lunch Menu" or page.title == "Bar Menu" %} active{% endif %}" href="{{site.url}}/dinner-menu">MENUS</a></li>
+                <ul class="dropdown-menu">
+                        <li><a class="sub-link" href="{{site.url}}/lunch-menu">Lunch</a></li>
+                        <li><a class="sub-link" href="{{site.url}}/dinner-menu">Dinner</a></li>
+                        <li><a class="sub-link" href="{{site.url}}/thanksgiving">Thanksgiving</a></li>
+                </ul>
                 <li><a class="nav-link three{% if page.title == "Catering" %} active{% endif %}" href="{{site.url}}/catering">CATERING</a></li>
                 <li><a class="nav-link one{% if page.title == "Events" %} active{% endif %}" href="{{site.url}}/weekly-events">EVENTS</a></li>
                 <li><a class="nav-link two{% if page.title == "Gallery" %} active{% endif %}" href="{{site.url}}/gallery">GALLERY</a></li>
@@ -12,7 +17,6 @@
                 <li><a class="nav-link one{% if page.title == "Reservations" %} active{% endif %}" href="{{site.url}}/reservations">RESERVATIONS</a></li>
             </ul>
             </nav>
-            <div class="OTButton"><script type="text/javascript" src="https://secure.opentable.com/ism/link.aspx?rid=103855&restref=103855&bgimage=https://secure.opentable.com/img/frontDoor/ot_btn_black.png"></script><noscript id="OT_noscript"><a href="http://www.opentable.com/cinque-terre-reservations-huntington-station?rtype=ism&restref=103855" >Reserve Now On OpenTable.com</a></noscript><a id="OTPoweredBy" class="OTPoweredBy" href="http://www.opentable.com/cinque-terre-reservations-huntington-station?rtype=ism&restref=103855" >Powered By OpenTable</a></div>
             <img class="hamburger" src="/images/hamburger.png">
             <img class="x" src="/images/x.png">
             <ul class="mobile-nav">
