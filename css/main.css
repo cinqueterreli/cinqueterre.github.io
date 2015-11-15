@@ -139,6 +139,7 @@ hr {
 #wrap {
 	min-height:100%;
 	margin-top:-40px;
+	clear:both;
 }
 
 #main {
