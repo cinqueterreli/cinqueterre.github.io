@@ -22,6 +22,10 @@
     opacity: .7;
 }
 
+.slider:hover{
+    opacity:1;
+}
+
 .slide-block {
     width:50%;
     display:inline-block;
