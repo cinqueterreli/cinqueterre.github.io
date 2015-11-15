@@ -380,23 +380,6 @@ hr {
 	display:block;
 }
 
-.sub-link {
-	display:block;
-	color:black;
-	padding:0 1em;
-}
-
-.dropdown-menu {
-	display:none;
-	font-family:navText;
-	font-size:.8em;
-	margin-left:1em;
-	position:absolute;
-	padding:1em;
-	background-color:rgb(136, 219, 254);
-	list-style:none;
-}
-
 .one:hover {
 	background-color:#F16F89;
 }
