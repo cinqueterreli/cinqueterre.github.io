@@ -377,6 +377,10 @@ hr {
 	display:block;
 }
 
+.header-nav ul li {
+	display:block;
+}
+
 .sub-link {
 	display:block;
 	color:black;
