@@ -54,22 +54,6 @@ $('.location-link, .location-link-default').click(function(){
 });
 
 
-/* ----- Dropdown Menu Functionality ----- */
-
-  $(".dropdown-link").mouseenter(function(){
-    $(".dropdown-menu").slideDown(500);
-  });
-
-  $(".dropdown-menu").mouseleave(function(){
-    $(".dropdown-menu").slideUp(200);
-  });
-
-  $('.no').mouseenter(function() {
-        $(".dropdown-menu").slideUp(200);
-  });
-
-
-
 
 /*--- Up Arrow Function ---*/
 
