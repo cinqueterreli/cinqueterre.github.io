@@ -391,7 +391,6 @@ hr {
 	display:none;
 	font-family:navText;
 	position:absolute;
-	margin-left:-2em;
 	padding:1em;
 	background-color:rgb(248, 114, 77);
 	list-style:none;
