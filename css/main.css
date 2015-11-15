@@ -390,6 +390,7 @@ hr {
 .dropdown-menu {
 	display:none;
 	font-family:navText;
+	font-size:.8em;
 	position:absolute;
 	padding:1em;
 	background-color:rgb(136, 219, 254);
