@@ -83,6 +83,7 @@
 
 /* The same rules for styling apply here. Style to your liking */
 .as-nav {
+    display:none;
     position: absolute;
     top:30em;
     right:12em;

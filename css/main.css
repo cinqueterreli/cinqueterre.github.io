@@ -193,13 +193,21 @@ hr {
 
 /*------ PROMOS ------ */
 
+.promo-holder {
+	display:none;
+	position:relative;
+	float:right;
+	width:200px;
+	height:600px;
+	overflow:auto;
+}
+
 .promo-event {
   width:200px;
   height:200px;
   padding:0 1em;
-  display:inline-block;
+  display:block;
   text-align:center;
-  display:none;
 }
 
 .promo-event > p {
