@@ -205,6 +205,9 @@ hr {
 	background:url('/images/seamless_paper_texture.png');
 	opacity:.7;
 	padding:.5em 0;
+	border-radius:5px;
+	border: 1px solid black;
+	border-right:none;
 }
 
 .promo-holder:hover {
