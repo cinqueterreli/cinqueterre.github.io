@@ -230,6 +230,7 @@ hr {
   border: 1px solid black;
   font-size: 1em;
   float:right;
+  cursor:pointer;
 }
 
 .promo-event > p {
