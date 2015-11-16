@@ -1,8 +1,6 @@
 
 $(document).ready(function(){
 
-$('.slider').anyslider();
-
 
 /*--- Fixed position changer shit ---*/
 
