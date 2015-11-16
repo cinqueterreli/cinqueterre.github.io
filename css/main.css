@@ -195,12 +195,12 @@ hr {
 /*------ PROMOS ------ */
 
 .promo-holder {
-	display:none;
+	/*display:none;*/
 	position:relative;
 	float:right;
 	width:250px;
-	height:400px;
-	margin-top:-22.2em;
+	height:225px;
+	margin-top:-14em;
 	overflow:auto;
 	background:url('/images/seamless_paper_texture.png');
 	opacity:.7;
