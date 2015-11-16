@@ -210,6 +210,12 @@ hr {
 	border-right:none;
 }
 
+@media(max-width:975px){
+	.promo-holder {
+		display:none;
+	}
+}
+
 .promo-holder:hover {
 	opacity:1;
 }
