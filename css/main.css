@@ -196,7 +196,7 @@ hr {
 /*------ PROMOS ------ */
 
 .promo-holder {
-	/*display:none;*/
+	display:none;
 	position:relative;
 	float:right;
 	width:250px;
