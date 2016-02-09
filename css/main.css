@@ -78,10 +78,6 @@ a {
 	color:#F16F89;
 }
 
-a:visited {
-	color:#07B5FF;
-}
-
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
        cursor: pointer;
 }
