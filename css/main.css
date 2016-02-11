@@ -886,6 +886,7 @@ hr {
 
 .event-flyer {
 	max-width:500px;
+	box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
 }
 
 @media(min-width:800px){
