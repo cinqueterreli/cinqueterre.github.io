@@ -711,6 +711,7 @@ hr {
 	clear:both;
   	margin-bottom: 1em;
   	font-size:1.2em;
+  	text-indent:0;
 }
 
 .aside {
