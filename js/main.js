@@ -53,33 +53,34 @@ $('.location-link, .location-link-default').click(function(){
 
 
 /*--- Sidebar In and Out Functionality ---*/
-var sidebar = $('#sidebar'),
-        rt = sidebar.css('right');
-    sidebar.click(function(event) {     
-      if(rt == '0px' || rt == '5px') {
-        sidebar.animate({
-          'right':'300px'
-        }, 600); 
-      } else {
-        sidebar.animate({
-          'right': '0px'
-          }, 600);
-      }
-        event.preventDefault();
+$(function() {
+        var sidebar = $('#sidebar'),
+            rt = sidebar.css('right');
+    sidebar.click(function(event) {           
+        if(rt == '0px' || rt == '5px') {
+            sidebar.animate({
+                'right':'300px'
+            }, 600); 
+        } else {
+            sidebar.animate({
+                'right': '0px'
+                }, 600);
+        }
+            event.preventDefault();
     }); 
-    sidebar.hover(
-      function() {
-        if(rt == '0px') {
-          sidebar.css('right','5px');
+sidebar.hover(
+        function() {
+            if(rt == '0px' || rt == '5px') {
+                sidebar.css('right','5px');
+            }
+        }, function () {
+            if(rt == '5px') {
+                sidebar.css('right', '0px');
+            }
         }
-            }, function () {
-        if(rt == '5px') {
-          sidebar.css('right', '0px');
-        }
-      }
     );
-        
-  });
+
+    });
 
 
 
