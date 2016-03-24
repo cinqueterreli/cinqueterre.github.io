@@ -83,10 +83,10 @@ enquire.register("screen and (min-width:975px)",{
 
 /* ----- Box Shadow Changes on click ------- */
 
-  $(".button-link, .menu-link, .logo-img").mousedown(function(){
+  $(".button-link, .menu-link, .logo-img, .location-link-default").mousedown(function(){
   	$(this).css("box-shadow", "none");
   });
-  $(".button-link, .menu-link, .logo-img").mouseup(function(){
+  $(".button-link, .menu-link, .logo-img, .location-link-default").mouseup(function(){
     $(this).css("box-shadow", "3px 3px 3px 3px rgba(0, 0, 0, .5)");
   });
 
