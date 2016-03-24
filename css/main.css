@@ -193,6 +193,40 @@ hr {
 	margin-top:-2.5em;
 }
 
+
+/*------ SIDEBAR ------ */
+
+#sidebar {
+	display:none;
+	position: fixed;
+	top:500px;
+	right:-275px;
+	width:300px;
+	height:600px;
+	overflow:auto;
+}
+
+.sidebar-head {
+
+}
+
+.sidebar-des {
+
+}
+
+
+#tonight {
+	display:none;
+}
+
+#ladiesnight {
+	display:none;
+}
+
+#pedrotorres {
+	display:none;
+}
+
 /*------ PROMOS ------ */
 
 .promo-holder {
