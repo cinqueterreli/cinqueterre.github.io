@@ -202,7 +202,7 @@ hr {
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition-duration: 0.75s;
 }
 #slideout_inner {
   position: fixed;
@@ -218,10 +218,10 @@ hr {
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition-duration: 0.75s;
 }
 #slideout:hover {
-  right: 250px;
+  right: 300px;
 }
 #slideout:hover #slideout_inner {
   right: 0;
