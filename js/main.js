@@ -56,7 +56,7 @@ $('.location-link, .location-link-default').click(function(){
 $(function() {
         var sidebar = $('#sidebar'),
             rt = sidebar.css('right');
-    sidebar.click(function(event) {           
+    (".sidebar-arrow").click(function(event) {           
         if(rt == '0px' || rt == '5px') {
             sidebar.animate({
                 'right':'300px'
@@ -68,7 +68,7 @@ $(function() {
         }
             event.preventDefault();
     }); 
-sidebar.hover(
+(".sidebar-arrow").hover(
         function() {
             if(rt == '0px' || rt == '5px') {
                 sidebar.css('right','5px');
