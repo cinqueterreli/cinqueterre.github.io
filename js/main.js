@@ -57,7 +57,7 @@ $(function() {
         var sidebar = $('#sidebar'),
             rt = sidebar.css('right');
     (".sidebar-arrow").click(function(event) {           
-        if(rt == '-282px' /*|| rt == '5px'*/) {
+        if(rt == '-282px' || rt == '5px') {
             sidebar.animate({
                 'right':'300px'
             }, 600); 
@@ -70,7 +70,7 @@ $(function() {
     }); 
 (".sidebar-arrow").hover(
         function() {
-            if(rt == '-282px' /*|| rt == '5px'*/) {
+            if(rt == '-282px' || rt == '5px') {
                 sidebar.css('right','5px');
             }
         }, function () {
