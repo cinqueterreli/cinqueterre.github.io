@@ -211,6 +211,11 @@ hr {
 
 }
 
+.sidebar-head {
+	border-bottom: 1px solid black;
+    padding-bottom: .25em;
+}
+
 .sidebar-event {
 	text-align:left;
 }
