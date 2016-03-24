@@ -196,6 +196,13 @@ hr {
 
 /*------ SIDEBAR ------ */
 
+.sidebar-arrow {
+	position:absolute;
+	top:250px;
+	right:50px;
+	cursor:pointer;
+}
+
 #sidebar {
 	position: fixed;
     top: 150px;
