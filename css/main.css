@@ -203,6 +203,7 @@ hr {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
   transition-duration: 0.75s;
+  z-index:1000;
 }
 #slideout_inner {
   position: fixed;
