@@ -212,6 +212,11 @@ hr {
   transition-duration: 0.75s;
   z-index:1000;
 }
+
+.slideout-tab:hover {
+	display:none;
+}
+
 #slideout_inner {
   position: fixed;
   top: 150px;
