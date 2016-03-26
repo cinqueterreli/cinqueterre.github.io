@@ -328,7 +328,7 @@ hr {
   font-size: 1em;
   float:right;
   cursor:pointer;
-  margin-top:.2em;
+  margin-top:-2em;
 }
 
 .promo-event > p {
