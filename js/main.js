@@ -25,8 +25,8 @@ $(function() {
             $('sidebar-lunch').removeClass('sticky-lunch');
             $('sidebar-lunch').css('top', '230em');
         }  else {  
-            $('.sidebar').css('top', '22em');
-            $('.sidebar-lunch').css('top', '22em')
+            $('.sidebar').css('top', '28em');
+            $('.sidebar-lunch').css('top', '28em')
         }
 
     };  
