@@ -57,11 +57,11 @@ $('.location-link, .location-link-default').click(function(){
 var getDate = function() {  
     var day = new Date().getDay();
 
-    if (day == 3) {
+    if (day == '3') {
       $('#ladiesnight').css('display', 'inline');
     }
 
-    else if (day == 5) {
+    else if (day == '5') {
       $('#pedrotorres').css('display', 'inline');
 
     }
