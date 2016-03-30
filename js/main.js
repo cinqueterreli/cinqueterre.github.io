@@ -74,6 +74,8 @@ var getDate = function() {
 
 console.log(getDate);
 
+console.log(new Date().getDay());
+
 /*--- Up Arrow Function ---*/
 
 enquire.register("screen and (min-width:975px)",{
