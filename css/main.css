@@ -706,6 +706,7 @@ hr {
 
 .food-banner {
 	max-width:75%;
+	background:url('/images/classyfabric.png');
 }
 
 @media(max-width:1110px){
