@@ -121,10 +121,6 @@ a.button-link {
 	padding:0 1em;
 }
 
-.getinthemiddle {
-	text-align:center;
-}
-
 
 hr {
 	color:black;
@@ -706,6 +702,10 @@ hr {
 
 .food-banner {
 	max-width:75%;
+}
+
+.getinthemiddle {
+	text-align:center;
 	background:url('/images/classy_fabric.png');
 }
 
