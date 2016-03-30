@@ -54,7 +54,7 @@ $('.location-link, .location-link-default').click(function(){
 
 /*--- Get Day of Week for Weekly Events ---*/
 
-$(function() {  
+var getDate = function() {  
     var day = new Date().getDay();
 
     if (day == 3) {
@@ -70,9 +70,9 @@ $(function() {
       $('#ladiesnight', '#pedrotorres').css('display', 'none');
     }
 
-  });
+  };
 
-
+console.log(getDate);
 
 /*--- Up Arrow Function ---*/
 
