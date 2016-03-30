@@ -52,36 +52,25 @@ $('.location-link, .location-link-default').click(function(){
 });
 
 
-/*--- Sidebar In and Out Functionality ---*/
-$(function() {
-        var sidebar = $('#sidebar'),
-            rt = sidebar.css('right');
-    (".sidebar-arrow").click(function(event) {           
-        if(rt == '-282px' || rt == '5px') {
-            sidebar.animate({
-                'right':'300px'
-            }, 600); 
-        } else {
-            sidebar.animate({
-                'right': '0px'
-                }, 600);
-        }
-            event.preventDefault();
-    }); 
-(".sidebar-arrow").hover(
-        function() {
-            if(rt == '-282px' || rt == '5px') {
-                sidebar.css('right','5px');
-            }
-        }, function () {
-            if(rt == '5px') {
-                sidebar.css('right', '0px');
-            }
-        }
-    );
+/*--- Get Day of Week for Weekly Events ---*/
 
-    });
+$(function() {  
+    var day = new Date().getDay();
 
+    if (day == 3) {
+      $('#ladiesnight').css('display', 'inline');
+    }
+
+    else if (day == 5) {
+      $('#pedrotorres').css('display', 'inline');
+
+    }
+
+    else {
+      $('#ladiesnight', '#pedrotorres').css('display', 'none');
+    }
+
+  });
 
 
 
