@@ -11,7 +11,9 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
+        $('.sidebar', '.sidebar-lunch').hide();
         if (scrollTop > navTop) {   
+            $('.sidebar', '.sidebar-lunch').show();
             $('.sidebar').addClass('sticky');
             $('.sidebar-lunch').addClass('sticky-lunch');  
         } else {  
