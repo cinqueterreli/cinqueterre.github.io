@@ -708,6 +708,12 @@ hr {
 	max-width:75%;
 }
 
+@media(max-width:1110px){
+	.food-banner {
+		max-width:100%;
+	}
+}
+
 .menu-links {
 	font-family:bodyBold;
 	list-style:none;
