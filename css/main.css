@@ -756,7 +756,7 @@ hr {
 
 @media(max-width:700px){
 	.sidebar, .sidebar-lunch {
-		display:none;
+		display:none!important;
 	}
 
 	.menu-content {
