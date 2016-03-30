@@ -4,6 +4,7 @@ $(document).ready(function(){
 
 /*--- Fixed position changer shit ---*/
 
+$('.sidebar', '.sidebar-lunch').hide();
 $(function() {  
     var navTop = $('.menu-links').offset().top;
     var footerTop = $('#site-footer').offset().top;  
@@ -11,7 +12,6 @@ $(function() {
     var stickyNav = function(){  
         var scrollTop = $(window).scrollTop();  
 
-        $('.sidebar', '.sidebar-lunch').hide();
         if (scrollTop > navTop) {   
             $('.sidebar', '.sidebar-lunch').show();
             $('.sidebar').addClass('sticky');
