@@ -4,7 +4,9 @@ $(document).ready(function(){
 
 /*--- Fixed position changer shit ---*/
 
-$('.sidebar', '.sidebar-lunch').hide();
+$('.sidebar').hide();
+$('.sidebar-lunch').hide();
+
 $(function() {  
     var navTop = $('.menu-links').offset().top;
     var footerTop = $('#site-footer').offset().top;  
