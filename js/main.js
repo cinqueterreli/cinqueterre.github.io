@@ -54,25 +54,13 @@ $('.location-link, .location-link-default').click(function(){
 
 /*--- Get Day of Week for Weekly Events ---*/
 
-var getDate = function() {  
-    var day = new Date().getDay();
-
-    if (day == '3') {
+    if (new Date().getDay() == '3') {
       $('#ladiesnight').css('display', 'inline');
-    }
-
-    else if (day == '5') {
+    } else if (new Date().getDay() == '5') {
       $('#pedrotorres').css('display', 'inline');
-
-    }
-
-    else {
+    } else {
       $('#ladiesnight', '#pedrotorres').css('display', 'none');
     }
-
-  };
-
-console.log(getDate);
 
 console.log(new Date().getDay());
 
