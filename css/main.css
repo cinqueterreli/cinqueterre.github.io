@@ -280,6 +280,21 @@ hr {
 	display:none;
 } 
 
+/*------ MOBILE ONLY ----- */
+
+.mobile-announcement {
+	background:url('/images/classy_fabric.png');
+	color:white;
+	padding:1em;
+}
+
+@media(min-width:800px){
+	.mobile-announcement {
+		display:none;
+	}
+}
+
+
 /*------ PROMOS ------ */
 
 .promo-holder {
