@@ -285,7 +285,10 @@ hr {
 .mobile-announcement {
 	background:url('/images/classy_fabric.png');
 	color:white;
-	padding:1em;
+	padding:.5em 1em;
+	margin-top:-2em;
+	margin-bottom:2em;
+	position:relative;
 }
 
 @media(min-width:800px){
