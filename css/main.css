@@ -84,7 +84,6 @@ a[href], input[type='submit'], input[type='image'], label[for], select, button, 
 a.button-link {
   color:black;
   font-family:scriptHead;
-  font-size:1em;
   text-align:center;
   border-radius:2px;
   padding: .25em .5em;
