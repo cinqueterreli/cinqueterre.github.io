@@ -263,8 +263,11 @@ hr {
     padding-bottom: .25em;
 }
 
-.sidebar-event:not(:first-of-type) {
+.sidebar-event{
 	text-align:left;
+}
+
+.sidebar-event:not(:first-of-type) {
 	margin-top:1.2em;
 }
 
