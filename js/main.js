@@ -63,8 +63,10 @@ $('.location-link, .location-link-default').click(function(){
       $('#ladiesnight').css('display', 'inline');
     } else if (new Date().getDay() == '5') {
       $('#pedrotorres').css('display', 'inline');
+    } else if (new Date().getDay() == '4') {
+      $('#karaoke').css('display', 'inline');
     } else {
-      $('#ladiesnight', '#pedrotorres').css('display', 'none');
+      $('#ladiesnight', '#pedrotorres', '#karaoke').css('display', 'none');
     }
 
 console.log(new Date().getDay());
