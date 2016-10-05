@@ -606,7 +606,7 @@ hr {
 	clear:both;
 	position:absolute;
 	margin-top:5em;
-	z-index:1000;
+	z-index:1500;
 }
 
 .mobile-nav-link {
