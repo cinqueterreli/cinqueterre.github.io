@@ -304,6 +304,10 @@ hr {
 	}
 }
 
+.happening-mobile {
+	background-color:#07B5FF;
+	display:none;
+}
 
 /*------ PROMOS ------ */
 
