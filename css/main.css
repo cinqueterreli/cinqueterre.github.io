@@ -193,6 +193,13 @@ hr {
 }
 
 
+/*----- HOME SLIDER ----- */
+
+.home-slider {
+	display:none;
+}
+
+
 /*------ SLIDEOUT ------ */
 
 @media(max-width:800px){
