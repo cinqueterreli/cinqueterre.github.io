@@ -192,7 +192,7 @@ enquire.register("screen and (min-width:975px)",{
 
   });
 
-$(function() { $('.home-slider').unslider() })
+$('.bxslider').bxSlider();
 
 
 
