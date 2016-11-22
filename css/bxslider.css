@@ -26,6 +26,10 @@
 	display: block;
 }
 
+.bx-viewport {
+	width:80%;
+}
+
 /** THEME
 ===================================*/
 
