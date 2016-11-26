@@ -104,6 +104,18 @@ a.button-link {
 	background-color:#FAAA61;
 }
 
+.pink-o {
+	background-color:rgba(241, 111, 137, .4);
+}
+
+.blue-o {
+	background-color:rgba(7,151,244,.4);
+}
+
+.orange-o {
+	background-color:rgba(250,170,97,.4);
+}
+
 .button-style {
 	text-align:right;
 	margin: 0 auto .7em auto;
