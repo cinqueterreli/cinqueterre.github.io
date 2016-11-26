@@ -195,7 +195,16 @@ hr {
 
 /*----- HOME SLIDER ----- */
 
-.home-slider {
+.promo-viewport {
+  width:100%;
+  height:250px;
+  background-color:grey;
+}
+
+.promo-square {
+  height:250px;
+  width:250px;
+  display:inline-block;
 }
 
 
