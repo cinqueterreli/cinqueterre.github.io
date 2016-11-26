@@ -115,6 +115,10 @@ a.button-link {
 	background:url('/images/seamless_paper_texture.png');
 }
 
+.fabric-bg {
+	background: url('/images/classy_fabric.png');
+}
+
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
