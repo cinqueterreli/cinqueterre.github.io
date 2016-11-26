@@ -111,6 +111,10 @@ a.button-link {
 
 }
 
+.paper-bg {
+	background:url('/images/seamless_paper_texture.png');
+}
+
 .container {
 	max-width: 80%; /* max-width will scale to the browser, while just `width` will always be the value */
 	margin: 0 auto; /* or margin: 0 auto; -- both will center a block element on a page or in a container */
@@ -200,7 +204,6 @@ hr {
   height:265px;
   overflow-x: scroll;
   overflow-y: hidden;
-  white-space:nowrap;
 }
 
 .promo-wrapper {
@@ -213,6 +216,7 @@ hr {
   display: inline-block;
   margin: 0 .75em;
   border-radius: 5px;
+  padding:0 .5em;
 }
 
 .promo-title {
