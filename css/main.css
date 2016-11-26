@@ -202,9 +202,16 @@ hr {
 }
 
 .promo-square {
-  height:250px;
-  width:250px;
-  display:inline-block;
+  height: 250px;
+  width: 280px;
+  display: inline-block;
+  margin: 0 .75em;
+  border-radius: 5px;
+}
+
+.promo-title {
+	padding:.5em;
+	border-bottom:1px solid black;
 }
 
 
