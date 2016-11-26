@@ -208,6 +208,7 @@ hr {
   height:265px;
   overflow-x: scroll;
   overflow-y: hidden;
+  white-space:nowrap;
 }
 
 .promo-wrapper {
