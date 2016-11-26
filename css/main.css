@@ -217,10 +217,11 @@ hr {
   margin: 0 .75em;
   border-radius: 5px;
   padding:0 .5em;
+  vertical-align:top;
 }
 
 .promo-title {
-	padding:.5em;
+	padding:.25em;
 	border-bottom:1px solid black;
 }
 
