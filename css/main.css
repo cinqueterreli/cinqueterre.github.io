@@ -85,6 +85,11 @@ p > a:visited {
 	color:#F16F89;
 }
 
+p > a:hover {
+	opacity:.7;
+}
+
+
 a[href], input[type='submit'], input[type='image'], label[for], select, button, .pointer {
        cursor: pointer;
 }
