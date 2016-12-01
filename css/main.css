@@ -263,10 +263,18 @@ hr {
 
 .bottom-border {
 	border-bottom:1px solid black;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 .full-height {
 	height:250px;
+	transition: all .5s ease;
+	-webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
 }
 
 
