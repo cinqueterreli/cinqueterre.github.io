@@ -77,15 +77,15 @@ a {
 	text-decoration:none;
 }
 
-p > a {
+.promo-square > a {
 	color:#07B5FF;
 }
 
-p > a:visited {
+.promo-square > a:visited {
 	color:#F16F89;
 }
 
-p > a:hover {
+.promo-square > a:hover {
 	opacity:.7;
 }
 
