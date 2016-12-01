@@ -254,6 +254,12 @@ hr {
   vertical-align:top;
   border: 2px solid;
   white-space:normal;
+  transition: height 1s ease;
+  -webkit-transition: height 1s ease;
+  -moz-transition: height 1s ease;
+  -o-transition: height 1s ease;
+}
+
 }
 
 .promo-title {
