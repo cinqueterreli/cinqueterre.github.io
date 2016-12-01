@@ -238,6 +238,7 @@ hr {
 
 .promo-wrapper {
 	margin:0 auto;
+	width:80%;
 }
 
 .expand {
@@ -248,9 +249,9 @@ hr {
   height: 55px;
   width: 280px;
   display: inline-block;
-  margin: 0 .75em;
+  margin: .5em;
   border-radius: 5px;
-  padding:0 .5em;
+  padding: .5em;
   vertical-align:top;
   border: 2px solid;
   white-space:normal;
