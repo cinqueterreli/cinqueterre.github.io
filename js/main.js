@@ -192,9 +192,12 @@ enquire.register("screen and (min-width:975px)",{
 
   });
 
-$('.bxslider').bxSlider();
 
-
+$('.promo-title').click(function(){
+  this.toggleClass('.bottom-border');
+  this.next().slideToggle(500);
+  this.parent().toggleClass('.full-height')
+});
 
 });
 
