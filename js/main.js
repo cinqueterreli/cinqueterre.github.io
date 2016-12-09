@@ -193,11 +193,11 @@ enquire.register("screen and (min-width:975px)",{
   });
 
 
-/* $('.promo-title').click(function(){
+$('.promo-title').click(function(){
   $(this).toggleClass('bottom-border');
   $(this).next().slideToggle(500);
   $(this).parent().toggleClass('full-height')
-}); */
+});
 
 });
 
