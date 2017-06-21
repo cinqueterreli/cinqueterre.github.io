@@ -1071,6 +1071,12 @@ hr {
 	}
 }
 
+@media(max-width:800px){
+	.saturdayBanner {
+		width:100%;
+	}
+}
+
 @media(max-width:600px){
 	.event-holder {
 		margin-bottom:2em;
@@ -1129,9 +1135,6 @@ hr {
 	.event {
 		float:left;
 		width:70%;
-	}
-	.saturdayBanner {
-		width:100%;
 	}
 }
 
