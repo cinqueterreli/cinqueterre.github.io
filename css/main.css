@@ -1073,7 +1073,7 @@ hr {
 
 @media(max-width:800px){
 	.saturdayBanner {
-		width:100%;
+		width:100%!important;
 	}
 }
 
