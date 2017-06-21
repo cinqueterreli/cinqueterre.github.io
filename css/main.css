@@ -1115,6 +1115,12 @@ hr {
 	box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 0, 0, .5);
 }
 
+.saturdayBanner {
+	width:90%; 
+	margin:0 auto 3.5em auto; 
+	border:1.5px solid black;
+}
+
 @media(min-width:800px){
 	.event-date {
 		float:left;
@@ -1123,6 +1129,9 @@ hr {
 	.event {
 		float:left;
 		width:70%;
+	}
+	.saturdayBanner {
+		width:100%;
 	}
 }
 
