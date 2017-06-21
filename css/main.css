@@ -1116,7 +1116,7 @@ hr {
 }
 
 .saturdayBanner {
-	width:90%; 
+	max-width:90%; 
 	margin:0 auto 3.5em auto; 
 	border:1.5px solid black;
 }
@@ -1131,7 +1131,7 @@ hr {
 		width:70%;
 	}
 	.saturdayBanner {
-		width:100%;
+		max-width:100%;
 	}
 }
 
