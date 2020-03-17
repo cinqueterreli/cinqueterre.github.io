@@ -77,6 +77,14 @@ a {
 	text-decoration:none;
 }
 
+a.body-link {
+	color:#07B5FF;
+}
+
+a.body-link:hover {
+	color:#F16F89;
+}
+
 .promo-square > a {
 	color:#07B5FF;
 }
