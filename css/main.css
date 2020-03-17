@@ -743,8 +743,6 @@ hr {
 /* ----- HOMEPAGE ----- */
 
 .homepage-announcement {
-	visibility: hidden;
-	position:absolute;
 	margin:0 auto;
 	padding: 1.5em 0;
 }
