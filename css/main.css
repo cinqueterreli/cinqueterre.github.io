@@ -747,6 +747,12 @@ hr {
 	padding: 1.5em 0;
 }
 
+.blurb-wrap {
+	max-width:600px;
+	margin-bottom:.8em;
+	font-size:1.2em;
+}
+
 .homepage-promos {
 	max-width:90%;
 	margin:1em auto 0 auto;
