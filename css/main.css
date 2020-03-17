@@ -733,6 +733,12 @@ hr {
 
 /* ----- HOMEPAGE ----- */
 
+.homepage-announcement {
+	visibility: hidden;
+	margin:0 auto;
+	padding: 1.5em 0;
+}
+
 .homepage-promos {
 	max-width:90%;
 	margin:1em auto 0 auto;
