@@ -79,6 +79,7 @@ a {
 
 a.body-link {
 	color:#07B5FF;
+	font-family:bodyBold;
 }
 
 a.body-link:hover {
@@ -749,7 +750,7 @@ hr {
 
 .blurb-wrap {
 	max-width:600px;
-	margin-bottom:.8em;
+	margin-bottom:0 auto .8em auto;
 	font-size:1.2em;
 }
 
