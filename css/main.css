@@ -237,7 +237,7 @@ hr {
 
 /*----- Affiliate Links ------ */
 .ad-sidebar {
-	position:inline-block;
+	display:inline-block;
 }
 
 .affiliate-link {
