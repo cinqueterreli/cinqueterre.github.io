@@ -247,8 +247,12 @@ hr {
     border-radius: 5px;
     border: 1px solid black;
     padding: 0.5em;
-    color: white;
+    color: black;
     display:inline-block;
+}
+
+.affiliate-link:hover {
+	background-color:grey;
 }
 
 /*----- HOME SLIDER ----- */
