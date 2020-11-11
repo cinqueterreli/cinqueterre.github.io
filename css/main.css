@@ -238,7 +238,8 @@ hr {
 /*----- Affiliate Links ------ */
 .ad-sidebar {
 	display: inline-block;
-    margin-top: 1em;
+    margin: 1em auto 0 auto;
+    text-align:center;
 }
 
 .affiliate-link {
