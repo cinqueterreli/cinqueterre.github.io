@@ -241,6 +241,8 @@ hr {
 }
 
 .affiliate-link {
+	font-family:bodyBold;
+	font-size:1.5em;
 	max-width:250px;
 	border-radius: 5px;
 	border:1px solid black;
